@@ -67,7 +67,7 @@
             //         err();
             //     }
             // });
-            $.get("http://localhost:3000/search.json", { lookup : searchTerm }, 
+            $.get("http://thebestdish.herokuapp.com/search.json", { lookup : searchTerm }, 
                 function(data){
                     parseData(data)}, "json" );
         }
