@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+         <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="icon" href="favicon.ico">
+
+        <title>Sample Results Page</title>
+
+        <!-- Bootstrap core CSS -->
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Custom styles for this template -->
+        <link href="customtheme.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script>
+          $(function () {
+                $('#food').keypress(function (event) {
+                    if (event.which == 13) {
+                        value = $("#food").val();
+                        // message += " " + value;
+                        $('#food').val("");
+                        console.log(value);
+                         $("#insert").html("<span>" + value + "</span>"); 
+
+                        // $("#log").append("<p>"value"</p>"); 
+                        //return false;
+                    }
+                });
+
+                $("#food").click(function () {
+                    var e = jQuery.Event('keypress');
+                    e.which = 13; // #13 = Enter key
+                });
+            });
+
+    </script>
+        
+        <!-- Google map script -->
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"> </script>
+        <script type = "text/javascript" src = "http://tuftsdev.github.io/comp20-spring2015-team18/RestaurantMap.js"> </script>
+
+
+    </head>
+    <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Pastabilities</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right">
+            <div class="form-group">
+              <input type="text" id="food" name="food" placeholder="I'm looking for" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="Near" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-warning">Search</button>
+          </form>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+
+    <div class="jumbotron">
+      <div class="container">
+
+
+        <div class="page-header">
+            <h1>Here are the restaurants with the best <a href=" "></a><span id="insert">________</span>
+
+            <!-- <span class="foodname" id="foodname"></span>  -->
+             near you.</h1>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-xs-10 col-sm-offset-0 col-xs-offset-2">
+            	<div id="map-canvas">
+            		Map will go here!
+            	</div>
+            </div>
+            <div class="col-sm-6 col-xs-10 col-sm-offset-0 col-xs-offset-2">
+                <div class="row">
+                    <h3>1. Pizzeria Posto</h3>
+                </div>
+                <div class="row">
+                    <h3>2. Venus Pizza</h3>
+                </div>
+                <div class="row">
+                    <h3>3. Dave's Fresh Pasta</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+            <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    </body>
+</html>

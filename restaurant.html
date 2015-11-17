@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css"/>     
+        <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=true&amp;libraries=places"></script>
+
+      
+        <script type="text/javascript">
+            var myLat = 0;
+            var myLng = 0;
+            var request = new XMLHttpRequest();
+            var me = new google.maps.LatLng(myLat, myLng);
+            var xhr = new XMLHttpRequest();
+            
+            function init (yelpid) {
+
+            }
+            function parseData () {
+                if (xhr.readyState == 4 && xhr.status == 200) {
+
+                    converted = JSON.parse(xhr.responseText);
+
+                    for (i = 0; i < converted.length; i++) {
+                        var name = converted[i]['FoodName'];
+                        var id = converted[i]['FoodID'];
+                        var descrip =  converted[i]['Description'];
+                        var price =  converted[i]['Price'];
+                        var yelp =  converted[i]['YelpID'];                  
+                        var rating =  converted[i]['Rating'];
+                        var total =  converted[i]['Total']; 
+
+                        document.getElementById("restaurants").innerHTML +=
+                            "<p>" + name + "</p>" + "<p>" + descrip + "</p>"
+
+                    }
+            }
+        }
+
+            function searchRestaurant(yelpid){
+
+                xhr.open("POST", '/restaurant', true);
+
+                //Send the proper header information along with the request
+                xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+
+                xhr.onreadystatechange = parseData;
+                
+                var params = "findRest=" + yelpid;
+                xhr.send(params);
+            }
+
+           
+        </script>
+    </head>
+        <body onload="init(posto-somerville)">
+	        <div id="restaurants"><h1>Welcome to TBD!</h1></div>
+        </body>
+</html>

@@ -1,0 +1,513 @@
+foodid	foodname	description	yelpid	price	rating	total	restname
+1	â€œcholoâ€ù corn cob	garlic mojo mayo | cotija cheese | cayenne	the-painted-burro-somerville	6	5	1	The Painted Burro
+2	dos empanadas	spiced beef | chipotle & spinach | oven dried onion dip	the-painted-burro-somerville	8	4	1	The Painted Burro
+3	mango guacomole	avocados | serrano chile | cilantro | lime & red onion	the-painted-burro-somerville	10	3	1	The Painted Burro
+4	skillet roasted shrimp al ajillo	garlic | chipotle butter | stone ground grits	the-painted-burro-somerville	12	2	1	The Painted Burro
+5	chicharrÃ_n & mango	crispy pork belly | serrano chile & tamarind glaze | frisÃ©e salad	the-painted-burro-somerville	7	1	1	The Painted Burro
+6	duck quesadilla	roasted fig | apricot & cranberry salsa | duck confit | tres quesos | mexican crema	the-painted-burro-somerville	12	5	1	The Painted Burro
+7	â€œel mero meroâ€ù guacomole	avocados | cilantro | salt | lime & white onion	the-painted-burro-somerville	9	4	1	The Painted Burro
+8	chalupas	corn masa griddle cakes | crispy apples | goat cheese | roasted jalapeÃ±o agave nectar	the-painted-burro-somerville	12	3	1	The Painted Burro
+9	pumpkin fundido	warm tres quesos dip | roasted squash & sugar pumpkin purÃ©e | spiced pepitas & soft corn tortillas	the-painted-burro-somerville	12	2	1	The Painted Burro
+10	kale salad	jicama | carrots | cheesy whole grain mustard dressing | toasted corn nut crumble	the-painted-burro-somerville	11	1	1	The Painted Burro
+11	goat cheese & beet salad	orange & cilantro vinaigrette | mizuna | fresh avocado	the-painted-burro-somerville	12	5	1	The Painted Burro
+12	burro â€œcaesarâ€ù salad	avocado dressing | tomatillo & agave vinaigrette | queso viejo | anchovy | spiced pepitas	the-painted-burro-somerville	9	4	1	The Painted Burro
+13	heirloom squash & apple enchilladas	roasted blue hubbard | kuri & pumpkin | macomber turnip | garlicky swiss chard | apple & poblano mole | tres quesos	the-painted-burro-somerville	17	3	1	The Painted Burro
+14	pork carnitas y dos salsas enchilladas	ed wine & cola mole | tomatillo & cilantro bechamela | tres quesos	the-painted-burro-somerville	19	2	1	The Painted Burro
+15	duck carnitas enchillas	zucchini | tres quesos | refried black beans | yellow mole	the-painted-burro-somerville	20	1	1	The Painted Burro
+16	roasted achiote chicken enchilladas	smoked chile & roasted tomato salsa | tres quesos | cherry tomato salad	the-painted-burro-somerville	18	5	1	The Painted Burro
+17	street cart chicken	1/2 roaster | achiote-citrus marinade | kale & fried plantain | creamy poblano rice | tamarind butter	the-painted-burro-somerville	18	4	1	The Painted Burro
+18	grilled swordfish	coconut & cilantro rice | jumbo lump crab | mango & papaya salad	the-painted-burro-somerville	22	3	1	The Painted Burro
+19	short rib barbacoa	roasted autumn carrots | charred onions | kale | creamy oaxacan grits | red wine mole | cotija	the-painted-burro-somerville	24	2	1	The Painted Burro
+20	grilled pork chop	sweet corn polenta | rainbow chard | roasted peach & serrano salsa	the-painted-burro-somerville	19	1	1	The Painted Burro
+21	pork barbacoa torta	cider braised pork | guajillo mole | tres queso | roasted apples | mizuna	the-painted-burro-somerville	13	5	1	The Painted Burro
+22	chicken milanesa torta	crisp chicken breast | oaxaca cheese | guacamole | red onion | pico de gallo | roasted garlic mayo	the-painted-burro-somerville	13	5	1	The Painted Burro
+23	blackened fish torta	spice rubbed striped bass | radish & cilantro salad | serrano & pickled jalapeÃ±o mayo	the-painted-burro-somerville	14	4	1	The Painted Burro
+24	carnitas cubano torta	pork carnitas | sliced ham | swiss cheese | jicama & apple slaw | cilantro | â€œsalsa mil islasâ€ù	the-painted-burro-somerville	13	3	1	The Painted Burro
+25	street-style hot dog torta	all-beef pearl dog | cabbage & jalapeÃ±o slaw | chicharron | chipotle ketchup | agave mustard | grilled roll	the-painted-burro-somerville	9	2	1	The Painted Burro
+26	chorizo nachos	guacamole | pork charro beans | cabbage & jalapeÃ±o slaw | pimpinâ€™ jalapeÃ±os | tres quesos | baja cream | chipotle mayo	the-painted-burro-somerville	14	1	1	The Painted Burro
+27	oaxaca cheese grits		the-painted-burro-somerville	3	5	1	The Painted Burro
+28	kale & plantain		the-painted-burro-somerville	7	4	1	The Painted Burro
+29	cabbage & jalapeÃ±o slaw		the-painted-burro-somerville	2	3	1	The Painted Burro
+30	pork charro beans		the-painted-burro-somerville	2	2	1	The Painted Burro
+31	creamy poblano rice		the-painted-burro-somerville	4	1	1	The Painted Burro
+32	egg rolls (2)		roses-chinese-restaurant-medford	3.85	5	1	Rose's Chinese Restaurant
+33	scallion pie		roses-chinese-restaurant-medford	4.55	4	1	Rose's Chinese Restaurant
+34	crab rangoon (10)		roses-chinese-restaurant-medford	6.25	3	1	Rose's Chinese Restaurant
+35	shao mai (6)	a steamed dumpling stuffed w. pork | shrimp & vegetable	roses-chinese-restaurant-medford	6.25	2	1	Rose's Chinese Restaurant
+36	szechuan wonton	w. peanut buttery sauce	roses-chinese-restaurant-medford	5.55	1	1	Rose's Chinese Restaurant
+37	steamed vegetarian dumplings (6)		roses-chinese-restaurant-medford	6.55	5	1	Rose's Chinese Restaurant
+38	peking ravioli (6)	pan fried or steamed	roses-chinese-restaurant-medford	6.55	4	1	Rose's Chinese Restaurant
+39	fried chicken wings (7)		roses-chinese-restaurant-medford	7.95	3	1	Rose's Chinese Restaurant
+40	chicken teriyaki (6)		roses-chinese-restaurant-medford	7.25	2	1	Rose's Chinese Restaurant
+41	beef teriyaki		roses-chinese-restaurant-medford	7.95	1	1	Rose's Chinese Restaurant
+42	boneless spare ribs		roses-chinese-restaurant-medford	7.95	5	1	Rose's Chinese Restaurant
+43	shrimp toast (8)		roses-chinese-restaurant-medford	6.25	5	1	Rose's Chinese Restaurant
+44	house dumplings (10)		roses-chinese-restaurant-medford	6.75	4	1	Rose's Chinese Restaurant
+45	hot & sour soup		roses-chinese-restaurant-medford	3.65	3	1	Rose's Chinese Restaurant
+46	wonton soup		roses-chinese-restaurant-medford	3.65	2	1	Rose's Chinese Restaurant
+47	egg drop soup		roses-chinese-restaurant-medford	3.65	1	1	Rose's Chinese Restaurant
+48	three delight soup	shredded chicken | pork | beef with assorted vegetables	roses-chinese-restaurant-medford	7.25	5	1	Rose's Chinese Restaurant
+49	general gau's chicken	crispy chicken chunks in a spicy orange flavored sauce	roses-chinese-restaurant-medford	9.25	4	1	Rose's Chinese Restaurant
+50	szechuan style fish fillet	with ground pork in a spicy brown sauce	roses-chinese-restaurant-medford	10.25	3	1	Rose's Chinese Restaurant
+51	orange sesame chicken		roses-chinese-restaurant-medford	9.55	2	1	Rose's Chinese Restaurant
+52	sweet & sour chicken		roses-chinese-restaurant-medford	8.85	1	1	Rose's Chinese Restaurant
+53	chicken with cashew nuts		roses-chinese-restaurant-medford	8.85	5	1	Rose's Chinese Restaurant
+54	chicken with broccoli		roses-chinese-restaurant-medford	8.85	4	1	Rose's Chinese Restaurant
+55	moo goo gai pan		roses-chinese-restaurant-medford	8.85	3	1	Rose's Chinese Restaurant
+56	sauteed chicken with vegetables		roses-chinese-restaurant-medford	8.85	2	1	Rose's Chinese Restaurant
+57	chicken with garlic sauce		roses-chinese-restaurant-medford	8.85	1	1	Rose's Chinese Restaurant
+58	kung pao chicken		roses-chinese-restaurant-medford	8.85	5	1	Rose's Chinese Restaurant
+59	chicken with chinese eggplant		roses-chinese-restaurant-medford	8.85	4	1	Rose's Chinese Restaurant
+60	peking duck (whole)	tender duck marinated in a special sauce & expertly roasted. the duck is then deponed & the meat is served separately from the skin. accompanied w. steamed buns (or pancakes) | scallion brushes & hoisin sauce	roses-chinese-restaurant-medford	31.75	3	1	Rose's Chinese Restaurant
+61	orange sesame beef		roses-chinese-restaurant-medford	10.25	2	1	Rose's Chinese Restaurant
+62	beef with pea pods		roses-chinese-restaurant-medford	9.85	1	1	Rose's Chinese Restaurant
+63	beef with mushrooms		roses-chinese-restaurant-medford	9.85	5	1	Rose's Chinese Restaurant
+64	beef with broccoli		roses-chinese-restaurant-medford	9.85	5	1	Rose's Chinese Restaurant
+65	shredded beef peking style	stir-fried with hoisin sauce with 3-5 pancakes	roses-chinese-restaurant-medford	9.85	4	1	Rose's Chinese Restaurant
+66	kung pao beef with peanuts		roses-chinese-restaurant-medford	9.85	3	1	Rose's Chinese Restaurant
+67	szechuan style beef	with celery and carrots in a hot chili sauce	roses-chinese-restaurant-medford	9.85	2	1	Rose's Chinese Restaurant
+68	mongolian beef		roses-chinese-restaurant-medford	9.85	1	1	Rose's Chinese Restaurant
+69	rose's spare ribs		roses-chinese-restaurant-medford	8.55	5	1	Rose's Chinese Restaurant
+70	pork with broccoli		roses-chinese-restaurant-medford	8.55	4	1	Rose's Chinese Restaurant
+71	pork with ginger & scallion		roses-chinese-restaurant-medford	8.55	3	1	Rose's Chinese Restaurant
+72	pork with black bean sauce		roses-chinese-restaurant-medford	8.55	2	1	Rose's Chinese Restaurant
+73	pork peking style	stir-fired with hoisin sauce served with 3-5 pancakes	roses-chinese-restaurant-medford	8.55	1	1	Rose's Chinese Restaurant
+74	pork with garlic sauce		roses-chinese-restaurant-medford	8.55	5	1	Rose's Chinese Restaurant
+75	vegetarian's delight		roses-chinese-restaurant-medford	8.25	4	1	Rose's Chinese Restaurant
+76	four treasure vegetable	pea pods | water chestnuts | black mushrooms and baby corns in a brown sauce	roses-chinese-restaurant-medford	8.25	3	1	Rose's Chinese Restaurant
+77	sauteed string beans		roses-chinese-restaurant-medford	8.25	2	1	Rose's Chinese Restaurant
+78	broccoli with oyster sauce		roses-chinese-restaurant-medford	8.25	1	1	Rose's Chinese Restaurant
+79	broccoli with garlic sauc		roses-chinese-restaurant-medford	8.25	5	1	Rose's Chinese Restaurant
+80	chinese eggplant with garlic sauce		roses-chinese-restaurant-medford	8.25	4	1	Rose's Chinese Restaurant
+81	fried bean curd family style		roses-chinese-restaurant-medford	8.25	3	1	Rose's Chinese Restaurant
+82	sauteed shanghai baby bok choy		roses-chinese-restaurant-medford	8.25	2	1	Rose's Chinese Restaurant
+83	lo mein	choice: shrimp | pork | beef | chicken or vegetables	roses-chinese-restaurant-medford	7.25	1	1	Rose's Chinese Restaurant
+84	the house special lo mein		roses-chinese-restaurant-medford	7.85	5	1	Rose's Chinese Restaurant
+85	shang-hai pan fried noodles	topping with shrimp | pork | chicken & vegetables	roses-chinese-restaurant-medford	9.75	5	1	Rose's Chinese Restaurant
+86	pan fried noodles with vegetables		roses-chinese-restaurant-medford	8.95	4	1	Rose's Chinese Restaurant
+87	dan dan mein	noodles with bean sprouts in a spicy peanut buttery sauce	roses-chinese-restaurant-medford	7.25	3	1	Rose's Chinese Restaurant
+88	chow fun	choice | shrimp | pork | beef | chicken or vegetable	roses-chinese-restaurant-medford	8.45	2	1	Rose's Chinese Restaurant
+89	eight delight chow fun	shrimp | scallops | squid | chicken | pork & mixed vegs	roses-chinese-restaurant-medford	11.25	1	1	Rose's Chinese Restaurant
+90	singapore style rice sticks		roses-chinese-restaurant-medford	8.25	5	1	Rose's Chinese Restaurant
+91	house special rice sticks		roses-chinese-restaurant-medford	8.25	4	1	Rose's Chinese Restaurant
+92	fried rice	choice: shrimp | pork | beef | chicken or vegetable	roses-chinese-restaurant-medford	6.65	3	1	Rose's Chinese Restaurant
+93	chicken & pineapple fried rice		roses-chinese-restaurant-medford	7.55	2	1	Rose's Chinese Restaurant
+94	the house special fried rice	white style | served with shrimp | chicken and pork.	roses-chinese-restaurant-medford	7.55	1	1	Rose's Chinese Restaurant
+95	boiled white rice		roses-chinese-restaurant-medford	2.95	5	1	Rose's Chinese Restaurant
+96	pad thai	choice: shrimp | pork | beef | chicken or vegetable	roses-chinese-restaurant-medford	8.55	4	1	Rose's Chinese Restaurant
+97	house special pad thai	served w. shrimp | chicken & pork	roses-chinese-restaurant-medford	8.75	3	1	Rose's Chinese Restaurant
+98	pane	rosemary sea salt bread	posto-somerville	2.5	2	1	Posto
+99	oliva	warm olives | orange | rosemary | arbol chile	posto-somerville	5	1	1	Posto
+100	bruschetta	roasted grape tomatoes | goat cheese | basil | vincotto	posto-somerville	15	5	1	Posto
+101	arancini	crispy arborio rice | lemon | oregano | spicy sweet & sour tomato sauce	posto-somerville	11	4	1	Posto
+102	calamari	crispy point judith squid | lemon | pine nut romesco	posto-somerville	14	3	1	Posto
+103	meatballs	nonnaâ€™s recipe | pomodoro | mozzarella	posto-somerville	12	2	1	Posto
+104	burrata	maple brook farms vt | roasted vine-on tomatoes | house made lonza	posto-somerville	16	1	1	Posto
+105	carpaccio	raw sliced beef | parmesan | upland cress | black truffle aioli	posto-somerville	13	5	1	Posto
+106	caesar	white anchovies | parmesan croutons	posto-somerville	11	5	1	Posto
+107	arugula	endive | gorgonzola picante | red onion | honey & thyme vinaigrette	posto-somerville	12	4	1	Posto
+108	octopus salad	green & golden pole beans | salsa verde | red onion | olives	posto-somerville	14	3	1	Posto
+109	tortellini	jonah crab | spring pea brodo | parmesan crema | radish | pea tendril	posto-somerville	22	2	1	Posto
+110	gnocchi	braised beef short ribs | red wine sauce | parmesan	posto-somerville	22	1	1	Posto
+111	lasagne	cauliflower misto | sage pasta | spinach | parmesan & fontina bechamel	posto-somerville	18	5	1	Posto
+112	tagliatelle	ragu bolognese | veal | beef | pork | parmesan	posto-somerville	20	4	1	Posto
+113	ravioli	white asparagus | ricotta | carrot-ginger brodo | chervil	posto-somerville	21	3	1	Posto
+114	spaghetti	spicy tomato amatriciana | pork guanciale | pecorino toscano | basil	posto-somerville	20	2	1	Posto
+115	veal	saltimbocca | prosciutto | sage | soft mascarpone polenta | mushrooms | marsala	posto-somerville	23	1	1	Posto
+116	pork chop	10 oz grilled | creamy polenta | grilled asparagus | cipollini agrodolce	posto-somerville	23	5	1	Posto
+117	chicken	pan roasted | roasted baby carrots & parsnips | chicory	posto-somerville	19	4	1	Posto
+118	hanger	8 oz grilled | rosemary gold potatoes | tuscan kale | roasted garlic rosemary sea salt butter	posto-somerville	24	3	1	Posto
+119	salmon	wood roasted | red beet risotto | preserved lemon | pickled beet & frisÃ©e salad | vincotto	posto-somerville	22	2	1	Posto
+120	swordfish	grilled | braised artichokes | shrimp | parmesan polenta	posto-somerville	23	1	1	Posto
+121	margherita pizza	mozzarella | olive oil | basil | sea salt	posto-somerville	15	5	1	Posto
+122	porchetta pizza	fennel roasted pork | fontina | asiago | red onion | oregano	posto-somerville	18	4	1	Posto
+123	pepperoni pizza	calabrese salumi | mozzarella | basil | parmesan	posto-somerville	17	3	1	Posto
+124	prosciutto pizza	prosciutto di parma | mozzarella | arugula | lemon & anchovy vinaigrette	posto-somerville	21	2	1	Posto
+125	caponata pizza	eggplant | roasted grapes | roasted peppers | golden raisins | pine nuts | ricotta | mozzarella	posto-somerville	18	1	1	Posto
+126	meatball pizza	beef | pork | veal | mozzarella | oregano | garlic	posto-somerville	17	5	1	Posto
+127	marinara pizza	sliced garlic | oregano | parmesan	posto-somerville	12	5	1	Posto
+128	asparagus pizza	mozzarella | smoked bacon | farm fresh egg	posto-somerville	18	4	1	Posto
+129	mushroom pizza	shiitake | white trumpet | crimini | fontina | spinach | lemon zest	posto-somerville	18	3	1	Posto
+130	sausage pizza	fennel sausage | mozzarella | sea salt potato | pistachio pesto	posto-somerville	18	2	1	Posto
+131	soppressata pizza	spicy pork salumi | mozzarella | tuscan pepper | oregano | arugula | parmesan	posto-somerville	17	1	1	Posto
+132	apple pizza	gorgonzola crema | applewood bacon | caramelized onions | vincotto	posto-somerville	18	5	1	Posto
+133	cauliflower pizza	caramelized onions | asiago | basil | fontina	posto-somerville	18	4	1	Posto
+134	ooh mami kale	dashi broth | bragg apple cider vinegar | garlic | pork cracklin	rosebud-american-kitchen-and-bar-somerville-5	9.95	3	1	Rosebud American Kitchen and Bar
+135	atomic btâ€™s	stuffed jalapeno peppers  | smoked pork | cream cheese | bacon	rosebud-american-kitchen-and-bar-somerville-6	9.95	2	1	Rosebud American Kitchen and Bar
+136	smoked chicken wings	competition rub | agave glaze	rosebud-american-kitchen-and-bar-somerville-7	9.95	1	1	Rosebud American Kitchen and Bar
+137	nola bbq shrimp nâ€™ grits	gulf shrimp | woosta beer bbq | stone ground cheddar grits	rosebud-american-kitchen-and-bar-somerville-8	12.95	5	1	Rosebud American Kitchen and Bar
+138	duck and fig grilled flatbread	duck confit | poached figs | blue cheese | balsamic	rosebud-american-kitchen-and-bar-somerville-9	13.95	4	1	Rosebud American Kitchen and Bar
+139	dry fried green beans	smoked pork shoulder | pickled sour mustard greens | sesame	rosebud-american-kitchen-and-bar-somerville-10	9.95	3	1	Rosebud American Kitchen and Bar
+140	bbq "it's not a ramen" pork noodle soup	noodles | house char siu | pepper threads | soft pullet egg	rosebud-american-kitchen-and-bar-somerville-11	12.95	2	1	Rosebud American Kitchen and Bar
+141	wedge salad	cherry tomatoes | pig candy | blue cheese dressing | red onion | ciabatta croutons	rosebud-american-kitchen-and-bar-somerville-12	9.95	1	1	Rosebud American Kitchen and Bar
+142	fried brussels sprouts	competition rub | tabasco bbq sauce	rosebud-american-kitchen-and-bar-somerville-13	8.95	5	1	Rosebud American Kitchen and Bar
+143	state fair chili	jack & cheddar | sour cream | scallions	rosebud-american-kitchen-and-bar-somerville-14	9.95	4	1	Rosebud American Kitchen and Bar
+144	lyonnaise salad	poached egg | bacon | frisee | green beans | tomatoes | red onion | sour dough croutons | dijon vinaigrette	rosebud-american-kitchen-and-bar-somerville-15	9.95	3	1	Rosebud American Kitchen and Bar
+145	mediterranean mezze board	yellow lentil & carrot hummus | black bean & tahini puree | roasted beet & horseradish hummus | smoked eggplant baba ganoush | marinated olives | grilled flatbread	rosebud-american-kitchen-and-bar-somerville-16	15.95	2	1	Rosebud American Kitchen and Bar
+146	bbq pork flatbread	pulled pork | monterey-cheddar blend | pineapple | shs	rosebud-american-kitchen-and-bar-somerville-17	13.95	1	1	Rosebud American Kitchen and Bar
+147	st louis ribs (while they last)	1/2 rack | house sweet heat sauce | creamy slaw | pasta salad	rosebud-american-kitchen-and-bar-somerville-18	17.95	5	1	Rosebud American Kitchen and Bar
+148	grilled hanger steak	chicory & potato hash | crumbled blue cheese butter | balsamic	rosebud-american-kitchen-and-bar-somerville-19	24.95	5	1	Rosebud American Kitchen and Bar
+149	smoked bone in pork chop	house rub | gorgonzola grits | country greens | dried fruit mostarda	rosebud-american-kitchen-and-bar-somerville-20	18.95	4	1	Rosebud American Kitchen and Bar
+150	bbq baconator meatloaf fatty	buttery smashed potato | poblano-onion gravy	rosebud-american-kitchen-and-bar-somerville-21	16.95	3	1	Rosebud American Kitchen and Bar
+151	grilled swordfish	butternut squash & mushroom risotto	rosebud-american-kitchen-and-bar-somerville-22	23.95	2	1	Rosebud American Kitchen and Bar
+152	asian bbq hog head	gochujang bbq | kimchi | ginger scallion relish | biscuits (serves 2-4)	rosebud-american-kitchen-and-bar-somerville-23	23.95	1	1	Rosebud American Kitchen and Bar
+153	smoked chicken	1/2 chicken | special soy | cucumbers | ginger-garlic chili sauce	rosebud-american-kitchen-and-bar-somerville-24	18.95	5	1	Rosebud American Kitchen and Bar
+154	grilled cauliflower	sweet chili buffalo sauce | cauliflower purÃ©e | blue cheese	rosebud-american-kitchen-and-bar-somerville-25	14.95	4	1	Rosebud American Kitchen and Bar
+155	heirloom squash - blue cheese ravioli	smoked n' braised short ribs | pumpkin puree	rosebud-american-kitchen-and-bar-somerville-26	23.95	3	1	Rosebud American Kitchen and Bar
+156	burgundy braised beef short rib	celery root puree | pot roasted carrots & mushrooms	rosebud-american-kitchen-and-bar-somerville-27	24.95	2	1	Rosebud American Kitchen and Bar
+157	country fried steak	warm spinach | potato & bacon salad | black pepper gravy	rosebud-american-kitchen-and-bar-somerville-28	18.95	1	1	Rosebud American Kitchen and Bar
+158	griddled cheese burger	house blend | yellow cheese | lettuce | tomato | shaved onion | pickles | wgs	rosebud-american-kitchen-and-bar-somerville-29	9.95	5	1	Rosebud American Kitchen and Bar
+159	chicken fried catfish	swiss cheese | bbq bacon | green goddess dressing | sesame seed roll	rosebud-american-kitchen-and-bar-somerville-30	12.95	4	1	Rosebud American Kitchen and Bar
+160	texas rachel in a skirt	smoked brisket | bbq onions | horseradish wonder sauce | creamy slaw | rye	rosebud-american-kitchen-and-bar-somerville-31	13.95	3	1	Rosebud American Kitchen and Bar
+161	it mush brie love sandwich	roasted portabello | asparagus | brie | baby arugula | tarragon aioli | ciabatta	rosebud-american-kitchen-and-bar-somerville-32	11.95	2	1	Rosebud American Kitchen and Bar
+162	chicken thigh platter	creamy mashed potatoes | peppered milk gravy	rosebud-american-kitchen-and-bar-somerville-33	17.95	1	1	Rosebud American Kitchen and Bar
+163	gansett fish & chips	acadian red fish | tartar	rosebud-american-kitchen-and-bar-somerville-34	18.95	5	1	Rosebud American Kitchen and Bar
+164	mussels	roasted tomato & fennel broth | cous cous | chiles	foundry-on-elm-somerville	13	4	1	Foundry on Elm
+165	spicy popcorn shrimp	cherry peppers | roasted tomato aioli	foundry-on-elm-somerville	12	3	1	Foundry on Elm
+166	â€œdevils on horsebackâ€ù	feta-stuffed bacon-wrapped dates | mint balsamic	foundry-on-elm-somerville	9	2	1	Foundry on Elm
+167	guinness braised bratwurst	grilled apple | mustard cream sauce	foundry-on-elm-somerville	6	1	1	Foundry on Elm
+168	poutine	french fries | cheddar curds | hot beef gravy	foundry-on-elm-somerville	9	5	1	Foundry on Elm
+169	meze plate for two or more	assorted mediterranean appetizers | grilled pita	foundry-on-elm-somerville	15	5	1	Foundry on Elm
+170	roasted chiogga beets salad	arugula | smoked almonds | candied bacon goat cheese fritter | cara cara orange vinaigrette	foundry-on-elm-somerville	10	4	1	Foundry on Elm
+171	baby lettuce salad	warm house made boursin crostini | mustard vinaigrette	foundry-on-elm-somerville	8	3	1	Foundry on Elm
+172	caesar salad	chopped romaine lettuce | parmesan | croutons | classic dressing	foundry-on-elm-somerville	8	2	1	Foundry on Elm
+173	cobb salad	baby lettuce | chicken | bacon | tomatoes | egg | bleu cheese dressing	foundry-on-elm-somerville	15	1	1	Foundry on Elm
+174	smoked gouda mac nâ€™ cheese	braised cipollini onions | spinach | parmesan bread crumbs	foundry-on-elm-somerville	15	5	1	Foundry on Elm
+175	tagliatelle alla bolognese	fresh tagliatelle | house-made bolognese | parmesan	foundry-on-elm-somerville	18	4	1	Foundry on Elm
+176	blackened salmon	chorizo-sweet potato hash | cara cara orange | citrus beurre blanc	foundry-on-elm-somerville	22	3	1	Foundry on Elm
+177	pan-seared statler chicken	crispy mushrooms | baby kale | goat cheese polenta | sherry jus	foundry-on-elm-somerville	20	2	1	Foundry on Elm
+178	adobo rubbed grilled pork chop	caramelized brussels sprouts | spiced plantain puree | heirloom cherry tomato salad | queso fresco	foundry-on-elm-somerville	22	1	1	Foundry on Elm
+179	steak frites	8oz grilled flatiron steak | crispy shallots | red wine-mushroom cream sauce | watercress | french fries	foundry-on-elm-somerville	24	5	1	Foundry on Elm
+180	caramelized brussels sprouts		foundry-on-elm-somerville	7	4	1	Foundry on Elm
+181	sauteed spinach	raisins | smoked almonds	foundry-on-elm-somerville	6	3	1	Foundry on Elm
+182	creamy goat cheese polenta		foundry-on-elm-somerville	6	2	1	Foundry on Elm
+183	truffle french fries	parmesan | trufe oil	foundry-on-elm-somerville	7	1	1	Foundry on Elm
+184	smoky grilled cheese and tomato basil soup	smoked gouda | cheddar | smoked honey drizzle | francese bread | creamy tomato basil soup	foundry-on-elm-somerville	14	5	1	Foundry on Elm
+185	local usda prime burger	8 oz local usda prime | lettuce |tomato	foundry-on-elm-somerville	13	4	1	Foundry on Elm
+186	roasted portobello mushroom sandwich	grilled onions | swiss cheese | honey dijon mayo | lettuce | tomato | brioche	foundry-on-elm-somerville	10	3	1	Foundry on Elm
+187	artisanal cheese	a showcase of the marketâ€™s best (may include unpasteurized cheeses)	foundry-on-elm-somerville	14	2	1	Foundry on Elm
+188	charcuterie	house-made and artisanal	foundry-on-elm-somerville	13	1	1	Foundry on Elm
+189	french picnic plate	combination of cheese & charcuterie plates	foundry-on-elm-somerville	20	5	1	Foundry on Elm
+190	oysters	1/2 dozen	foundry-on-elm-somerville	15	5	1	Foundry on Elm
+191	asian bbq pork pizza	crispy pork belly | hoisin bbq | sriracha ranch | toasted sesame | mozzarella	foundry-on-elm-somerville	14	4	1	Foundry on Elm
+192	pepperoni pizza	roasted garlic | tomato sauce | mozzarella | pepperoni	foundry-on-elm-somerville	12	3	1	Foundry on Elm
+193	roasted mushroom pizza	mozzarella | truffle oil | parmesan	foundry-on-elm-somerville	12	2	1	Foundry on Elm
+194	shrimp chipotle alfredo pizza	mozzarella | black garlic | heirloom cherry tomatoes	foundry-on-elm-somerville	14	1	1	Foundry on Elm
+195	short rib wellington pot pie	red wine | wild mushrooms | root vegetables | puff pastry crust	saloon-somerville	23	5	1	Saloon
+196	baked stued mushroom	phyllo | goat cheese-stuffed portobello romesco | arugula	saloon-somerville	15	4	1	Saloon
+197	chicken fried rabbit leg	cheddar biscuit | kale | sour cream gravy	saloon-somerville	18	3	1	Saloon
+198	1/2 a bird on a board	half roasted chicken | seasonal vegetables | confit fingerlings | sherry jus	saloon-somerville	21	2	1	Saloon
+199	ballerâ€™s steak	28 oz bone in rib-eye steak | lyonnaise potatoes | market vegetables	saloon-somerville	38	1	1	Saloon
+200	fried pickle chips	panko-crusted dill pickles | sriracha and horseradish ranch dipping sauce	saloon-somerville	7	5	1	Saloon
+201	portuguese pigs in a blanket	chorizo | sweet potato-corn batter | smoked honey mustard glaze	saloon-somerville	8	4	1	Saloon
+202	devils on horseback	feta stuffed dates wrapped in bacon	saloon-somerville	9	3	1	Saloon
+203	one brandt beef slider	onion aioli | bacon | cheddar | lt | b&b pickles	saloon-somerville	4	2	1	Saloon
+204	lamb sausage	spicy pepper | onion relish	saloon-somerville	8	1	1	Saloon
+205	grilled flatbread	caramelized onions | pear | gorgonzola	saloon-somerville	12	5	1	Saloon
+206	chips benedict	hand cut fries | pork belly | fried egg and hollandaise	saloon-somerville	9	4	1	Saloon
+207	wedge salad	romaine | heirloom cherry tomatoes | smoked almonds | bacon | avocado bleu cheese dressing	saloon-somerville	7	3	1	Saloon
+208	cheese board	selection of 3 cheeses with assorted fruits	saloon-somerville	13	2	1	Saloon
+209	meat board	selection of 3 cured meats with mustard and toast	saloon-somerville	14	1	1	Saloon
+210	duck wings	orange-molasses glaze	saloon-somerville	8	5	1	Saloon
+211	caprese	- fresh bufala milk mozzarella | beefsteak tomatoes & basil drizzled with extra virgin olive oil & balsamic glaze	pescatore-somerville	15	5	1	Pescatore
+212	shrimp scampi	sautÃ©ed with extra virgin olive oil | lemon & white wine	pescatore-somerville	13	4	1	Pescatore
+213	fried calamari	- fresh tubes & tentacles over homemade shoe-string onion rings | served with fresh marinara	pescatore-somerville	11	3	1	Pescatore
+214	cape cod littleneck clams		pescatore-somerville	13	2	1	Pescatore
+215	black p.e.i. mussels	sautÃ©ed in white wine | garlic | extra virgin olive oil or fresh marinara  | or fra diavolo sauce	pescatore-somerville	11	1	1	Pescatore
+216	antipasto italiano	assortment of specialty italian meats & cheese marinated vegetables over iceberg lettuce | homemade italian dressing	pescatore-somerville	20	5	1	Pescatore
+217	arancini	imported arborio & saffron rice balls filled with meat ragu | peas & mozzarella cheese	pescatore-somerville	6	4	1	Pescatore
+218	bruschetta	grilled artisan bread topped with fresh tomatoes extra virgin olive oil & garlic	pescatore-somerville	7	3	1	Pescatore
+219	al pescatore	smoked salmon | goat cheese | caramelized onions	pescatore-somerville	12	2	1	Pescatore
+220	tuna carpaccio	organic arugula over sushi-grade tuna | caper aioli dressing	pescatore-somerville	15	1	1	Pescatore
+221	clam basket	fried full-bellied ipswich clams with homemade tartar sauce	pescatore-somerville	16	5	1	Pescatore
+222	garden salad	iceberg | onions | cucumbers | tomatoes	pescatore-somerville	5	4	1	Pescatore
+223	mirabella salad	mesclun greens | cherry tomatoes | goat cheese | walnuts	pescatore-somerville	10	3	1	Pescatore
+224	caesar	romaine lettuce house-made dressing & croutons sprinkled with paprika	pescatore-somerville	9	2	1	Pescatore
+225	arugula salad	shaved parmigiano lemon dressing	pescatore-somerville	11	1	1	Pescatore
+226	fishermanâ€™s platter	atlantic haddock | shrimp | sea scallops fullbellied ipswich clams & calamari	pescatore-somerville	20	5	1	Pescatore
+227	fusilli amalfi	homemade fusilli pasta with shrimp | sea scallops | lobster meat & broccoli rabe. red | white | or fra diavolo sauce	pescatore-somerville	21	4	1	Pescatore
+228	pappardelle tartufo	homemade wide noodle pasta | porcini mushroom black truffle oil & walnut light cream sauce topped with shaved parmigiano	pescatore-somerville	16	3	1	Pescatore
+229	gnocchi sorrentino	homemade potato & ricotta dumplings baked in a tomato-basil sauce topped with bufala milk mozzarella	pescatore-somerville	14	2	1	Pescatore
+230	lobster ravioli	homemade lobster & ricotta stuffed ravioli vodka & light cream tomato sauce	pescatore-somerville	16	1	1	Pescatore
+231	risotto pescatore	imported arborio rice | orvieto white wine & tomato sauce lobster meat | p.e.i. mussels | sea scallops & shrimp	pescatore-somerville	21	5	1	Pescatore
+232	cheese ravioli	homemade ravioli stuffed with a three cheese blend topped in a light tomato-basil sauce	pescatore-somerville	11	5	1	Pescatore
+233	eggplant parmigiana	oven-baked eggplant with mozzarella & parmigiano topped with fresh tomato basil sauce	pescatore-somerville	12	4	1	Pescatore
+234	fettuccine bolognese	homemade egg noodle pasta in a classic bolognese ground veal | beef & pancetta | red wine tomato sauce	pescatore-somerville	13	3	1	Pescatore
+235	fettuccine alfredo	homemade egg noodle pasta in a classic alfredo	pescatore-somerville	11	2	1	Pescatore
+236	linguini alle vongole	in shell cape cod littleneck clams fresh marinara | or extra virgin olive oil garlic & white wine | or fra diavolo	pescatore-somerville	16	1	1	Pescatore
+237	grilled steak tips	prime angus beef in house marinade sautÃ©ed spinach & mashed potatoes	pescatore-somerville	16	5	1	Pescatore
+238	chicken francese	lemon-pepper parmigiano cream sauce sautÃ©ed asparagus	pescatore-somerville	16	4	1	Pescatore
+239	chicken marsala	marsala wine | mushrooms & prosciutto homemade butternut squash & ricotta-filled ravioli veal	pescatore-somerville	16	3	1	Pescatore
+240	chicken picata	sautÃ©ed in a lemon caper sauce homemade artichoke & fontina cheese-filled ravioli	pescatore-somerville	16	2	1	Pescatore
+241	chicken parmigiana	topped with parmigiano & mozzarella cheese homemade fusilli in a light marinara sauce	pescatore-somerville	16	1	1	Pescatore
+242	veal parmigiana	topped with parmigiano & mozzarella cheese homemade fusilli in a light marinara sauce	pescatore-somerville	19	5	1	Pescatore
+243	egg rolls		dim-sum-cafe-medford	5.95	4	1	Dim Sum Cafe
+244	peking ravioli		dim-sum-cafe-medford	5.95	3	1	Dim Sum Cafe
+245	fried wonton		dim-sum-cafe-medford	5.95	2	1	Dim Sum Cafe
+246	crab rangoon		dim-sum-cafe-medford	6.25	1	1	Dim Sum Cafe
+247	chicken wings		dim-sum-cafe-medford	7.95	5	1	Dim Sum Cafe
+248	fried chicken fingers		dim-sum-cafe-medford	7.95	4	1	Dim Sum Cafe
+249	boneless spareribs		dim-sum-cafe-medford	7.95	3	1	Dim Sum Cafe
+250	fried shrimps		dim-sum-cafe-medford	7.95	2	1	Dim Sum Cafe
+251	chicken teriyaki		dim-sum-cafe-medford	7.95	1	1	Dim Sum Cafe
+252	beef teriyaki		dim-sum-cafe-medford	7.95	5	1	Dim Sum Cafe
+253	bbq spareribs		dim-sum-cafe-medford	7.95	5	1	Dim Sum Cafe
+254	scallion pancakes		dim-sum-cafe-medford	4.75	4	1	Dim Sum Cafe
+255	crispy fried tofu		dim-sum-cafe-medford	5	3	1	Dim Sum Cafe
+256	vegetable ravioli		dim-sum-cafe-medford	5.25	2	1	Dim Sum Cafe
+257	fried dough with pink sugar		dim-sum-cafe-medford	5.25	1	1	Dim Sum Cafe
+258	vegetable tempura		dim-sum-cafe-medford	5.75	5	1	Dim Sum Cafe
+259	wonton with spicy peanut sauce		dim-sum-cafe-medford	6	4	1	Dim Sum Cafe
+260	edamame		dim-sum-cafe-medford	5	3	1	Dim Sum Cafe
+261	spicy cold sesame noodles		dim-sum-cafe-medford	6.25	2	1	Dim Sum Cafe
+262	popcorn shrimp		dim-sum-cafe-medford	6.95	1	1	Dim Sum Cafe
+263	fried shiu mai		dim-sum-cafe-medford	6	5	1	Dim Sum Cafe
+264	chicken wing w/ spiced salt & pepper		dim-sum-cafe-medford	9.95	4	1	Dim Sum Cafe
+265	fish fillet w/ spiced salt & pepper		dim-sum-cafe-medford	9.95	3	1	Dim Sum Cafe
+266	pork chop w/ spiced salt and pepper		dim-sum-cafe-medford	10.95	2	1	Dim Sum Cafe
+267	calamari w/ spiced salt and pepper		dim-sum-cafe-medford	11	1	1	Dim Sum Cafe
+268	peking duck		dim-sum-cafe-medford	30	5	1	Dim Sum Cafe
+269	wonton soup		dim-sum-cafe-medford	5.25	4	1	Dim Sum Cafe
+270	hot & sour soup		dim-sum-cafe-medford	5.25	3	1	Dim Sum Cafe
+271	egg drop soup		dim-sum-cafe-medford	5.25	2	1	Dim Sum Cafe
+272	miso tofu soup		dim-sum-cafe-medford	5.25	1	1	Dim Sum Cafe
+273	general gauâ€™s chicken		dim-sum-cafe-medford	6.5	5	1	Dim Sum Cafe
+274	sesame chicken		dim-sum-cafe-medford	9	5	1	Dim Sum Cafe
+275	sliced chicken w/ broccoli		dim-sum-cafe-medford	9	4	1	Dim Sum Cafe
+276	sliced chicken w/ mixed vegetables		dim-sum-cafe-medford	9	3	1	Dim Sum Cafe
+277	sweet & sour chicken		dim-sum-cafe-medford	9	2	1	Dim Sum Cafe
+278	kung pao chicken		dim-sum-cafe-medford	9	1	1	Dim Sum Cafe
+279	szechuan spiced chicken		dim-sum-cafe-medford	10	5	1	Dim Sum Cafe
+280	orange flavored chicken		dim-sum-cafe-medford	10	4	1	Dim Sum Cafe
+281	chicken w/ mushrooms		dim-sum-cafe-medford	10	3	1	Dim Sum Cafe
+282	chicken w/ snow peas		dim-sum-cafe-medford	10	2	1	Dim Sum Cafe
+283	chicken w/ green beans		dim-sum-cafe-medford	10	1	1	Dim Sum Cafe
+284	chicken w/ garlic sauce		dim-sum-cafe-medford	10	5	1	Dim Sum Cafe
+285	chicken w/ cashew nuts		dim-sum-cafe-medford	10	4	1	Dim Sum Cafe
+286	pineapple chicken		dim-sum-cafe-medford	10	3	1	Dim Sum Cafe
+287	thai basil chicken		dim-sum-cafe-medford	10	2	1	Dim Sum Cafe
+288	general gauâ€™s beef		dim-sum-cafe-medford	10	1	1	Dim Sum Cafe
+289	orange flavored beef		dim-sum-cafe-medford	10	5	1	Dim Sum Cafe
+290	beef w/ ginger and scallions		dim-sum-cafe-medford	10	4	1	Dim Sum Cafe
+291	beef w/ broccoli		dim-sum-cafe-medford	10	3	1	Dim Sum Cafe
+292	beef w/ snow peas		dim-sum-cafe-medford	10	2	1	Dim Sum Cafe
+293	beef w/ green beans		dim-sum-cafe-medford	10	1	1	Dim Sum Cafe
+294	beef w/ green pepper		dim-sum-cafe-medford	10	5	1	Dim Sum Cafe
+295	beef w/ mushrooms		dim-sum-cafe-medford	10	5	1	Dim Sum Cafe
+296	beef w/ eggplant		dim-sum-cafe-medford	10	4	1	Dim Sum Cafe
+297	beef w/ vegetables		dim-sum-cafe-medford	10	3	1	Dim Sum Cafe
+298	beef w/ garlic sauce		dim-sum-cafe-medford	10	2	1	Dim Sum Cafe
+299	szechuan spiced beef		dim-sum-cafe-medford	10	1	1	Dim Sum Cafe
+300	kung pao beef		dim-sum-cafe-medford	10	5	1	Dim Sum Cafe
+301	sesame beef		dim-sum-cafe-medford	11	4	1	Dim Sum Cafe
+302	mongolian beef		dim-sum-cafe-medford	11	3	1	Dim Sum Cafe
+303	dry cooked string beans with pork		dim-sum-cafe-medford	7.65	2	1	Dim Sum Cafe
+304	lobster sauce		dim-sum-cafe-medford	7.75	1	1	Dim Sum Cafe
+305	ma-po tofu with pork		dim-sum-cafe-medford	8	5	1	Dim Sum Cafe
+306	sweet & sour pork		dim-sum-cafe-medford	9	4	1	Dim Sum Cafe
+307	hunan crispy pork		dim-sum-cafe-medford	10	3	1	Dim Sum Cafe
+308	szechuan style pork		dim-sum-cafe-medford	10	2	1	Dim Sum Cafe
+309	pork w/ garlic sauce		dim-sum-cafe-medford	10	1	1	Dim Sum Cafe
+310	pork chop w/ spiced salt and pepper		dim-sum-cafe-medford	10.95	5	1	Dim Sum Cafe
+311	chinese eggplant w/ garlic sauce		dim-sum-cafe-medford	7.65	4	1	Dim Sum Cafe
+312	vegetarian delight		dim-sum-cafe-medford	7.65	3	1	Dim Sum Cafe
+313	broccoli w/ oyster sauce		dim-sum-cafe-medford	7.65	2	1	Dim Sum Cafe
+314	broccoli w/ garlic sauce		dim-sum-cafe-medford	7.65	1	1	Dim Sum Cafe
+315	vegetarian ma-po tofu		dim-sum-cafe-medford	8	5	1	Dim Sum Cafe
+316	fried tofu w/ broccoli		dim-sum-cafe-medford	8	5	1	Dim Sum Cafe
+317	fried tofu w/ vegetable		dim-sum-cafe-medford	8	4	1	Dim Sum Cafe
+318	tofu w/ oyster sauce		dim-sum-cafe-medford	8	3	1	Dim Sum Cafe
+319	tofu w/ garlic sauce		dim-sum-cafe-medford	8	2	1	Dim Sum Cafe
+320	chicken fried rice		dim-sum-cafe-medford	7.95	1	1	Dim Sum Cafe
+321	pork fried rice		dim-sum-cafe-medford	7.95	5	1	Dim Sum Cafe
+322	beef fried rice		dim-sum-cafe-medford	7.95	4	1	Dim Sum Cafe
+323	shrimp fried rice		dim-sum-cafe-medford	7.95	3	1	Dim Sum Cafe
+324	mushroom fried rice		dim-sum-cafe-medford	7.95	2	1	Dim Sum Cafe
+325	vegetable fried rice		dim-sum-cafe-medford	7.95	1	1	Dim Sum Cafe
+326	house special fried rice		dim-sum-cafe-medford	8.95	5	1	Dim Sum Cafe
+327	yang zhou fried rice		dim-sum-cafe-medford	7.95	4	1	Dim Sum Cafe
+328	singapore fried rice		dim-sum-cafe-medford	7.95	3	1	Dim Sum Cafe
+329	curry chicken fried rice		dim-sum-cafe-medford	7.95	2	1	Dim Sum Cafe
+330	thai chicken fried rice		dim-sum-cafe-medford	7.95	1	1	Dim Sum Cafe
+331	japanese soy sauce w/ tofu fried rice		dim-sum-cafe-medford	7.95	5	1	Dim Sum Cafe
+332	steamed white rice		dim-sum-cafe-medford	2.5	4	1	Dim Sum Cafe
+333	steamed brown rice		dim-sum-cafe-medford	2.75	3	1	Dim Sum Cafe
+334	pork lo mein		dim-sum-cafe-medford	8.75	2	1	Dim Sum Cafe
+335	chicken lo mein		dim-sum-cafe-medford	8.75	1	1	Dim Sum Cafe
+336	beef lo mein		dim-sum-cafe-medford	8.85	5	1	Dim Sum Cafe
+337	shrimp lo mein		dim-sum-cafe-medford	8.85	5	1	Dim Sum Cafe
+338	japanese soy sauce lo mein		dim-sum-cafe-medford	6	4	1	Dim Sum Cafe
+339	garlic noodles		dim-sum-cafe-medford	6	3	1	Dim Sum Cafe
+340	ginger and scallion lo mein		dim-sum-cafe-medford	6	2	1	Dim Sum Cafe
+341	hong kong style lo mein		dim-sum-cafe-medford	8	1	1	Dim Sum Cafe
+342	house special lo mein		dim-sum-cafe-medford	8.85	5	1	Dim Sum Cafe
+343	tofu with vegetable lo mein		dim-sum-cafe-medford	8.85	4	1	Dim Sum Cafe
+344	lobster sauce lo mein		dim-sum-cafe-medford	8.85	3	1	Dim Sum Cafe
+345	ultimate nachos		highland-kitchen-somerville	7.5	2	1	Highland Kitchen
+346	potato skins		highland-kitchen-somerville	6.5	1	1	Highland Kitchen
+347	onion rings		highland-kitchen-somerville	4.25	5	1	Highland Kitchen
+348	garlic bread		highland-kitchen-somerville	2.95	4	1	Highland Kitchen
+349	chicken fingers		highland-kitchen-somerville	7.95	3	1	Highland Kitchen
+350	shrimp scampi	five large shrimp | sauteed in garlic white wine sauce | served with toast points	highland-kitchen-somerville	8.95	2	1	Highland Kitchen
+351	crispy fried calamari		highland-kitchen-somerville	8.5	1	1	Highland Kitchen
+352	mozzarella sticks		highland-kitchen-somerville	6.5	5	1	Highland Kitchen
+353	french fries		highland-kitchen-somerville	4.25	4	1	Highland Kitchen
+354	fried ravioli		highland-kitchen-somerville	7.95	3	1	Highland Kitchen
+355	wing dings		highland-kitchen-somerville	7.95	2	1	Highland Kitchen
+356	golden fried shrimp (5)		highland-kitchen-somerville	8.95	1	1	Highland Kitchen
+357	boneless buffalo tenders		highland-kitchen-somerville	7.95	5	1	Highland Kitchen
+358	traditional antipasto	ham | salami | provolone over fresh lettuce	highland-kitchen-somerville	7.95	5	1	Highland Kitchen
+359	garden salad	fresh greens with tomatoes | olives | cucumbers & sliced onions	highland-kitchen-somerville	3.95	4	1	Highland Kitchen
+360	grilled vegetable salad	seasoned veggies over crisp greens drizzled with house balsamic dressing	highland-kitchen-somerville	7.95	3	1	Highland Kitchen
+361	tex mex grilled chicken salad	crisp greens | tomato | sour cream | salsa | black olives | topped with monterey jack & cheddar cheeses	highland-kitchen-somerville	10.95	2	1	Highland Kitchen
+362	caesar salad	crisp romaine & garlic croutons	highland-kitchen-somerville	7.95	1	1	Highland Kitchen
+363	caesar steak tip salad	crisp romaine & garlic croutons with cook to order steak tips	highland-kitchen-somerville	12.95	5	1	Highland Kitchen
+364	grilled chicken caesar salad	freshly grilled chicken served over crisp romaine & garlic croutons	highland-kitchen-somerville	9.95	4	1	Highland Kitchen
+365	soup of the day		highland-kitchen-somerville	3.5	3	1	Highland Kitchen
+366	n.e. clam chowder		highland-kitchen-somerville	4.25	2	1	Highland Kitchen
+367	tripe		highland-kitchen-somerville	8.85	1	1	Highland Kitchen
+368	homemade beef stew		highland-kitchen-somerville	8.85	5	1	Highland Kitchen
+369	homemade chili		highland-kitchen-somerville	8.85	4	1	Highland Kitchen
+370	baked eggplant parmigiana	served with pasta lightly breaded & fried | layered with marinara sauce & mozzarella cheese	highland-kitchen-somerville	10.95	3	1	Highland Kitchen
+371	manicotti al forno	ricotta stuffed pasta tubes topped with mariners sauce & mozzarella cheese	highland-kitchen-somerville	10.95	2	1	Highland Kitchen
+372	baked lasagna marinara	layers of pasta sheets | ricotta & parmesan cheese | baked mozzarella cheese	highland-kitchen-somerville	10.95	1	1	Highland Kitchen
+373	eggplant bracciolatini	served with pasta rolled eggplant stuffed provolone | ricotta & broccoli | topped with melted cheese	highland-kitchen-somerville	10.95	5	1	Highland Kitchen
+374	chicken-ziti & broccoli	a sauce of olive oil & garlic | with broccoli in a parmesan white wine sauce	highland-kitchen-somerville	10.95	4	1	Highland Kitchen
+375	chicken parmigiana	served with pasta lightly breaded and fried | layered with marinara sauce and mozzarella cheese	highland-kitchen-somerville	10.95	3	1	Highland Kitchen
+376	veal parmigiana	served with pasta lightly breaded and fried | layered with marinara sauce and mozzarella cheese	highland-kitchen-somerville	12.95	2	1	Highland Kitchen
+377	shrimp scampi	served over rice or pasta sauteed sweet shrimp in a garlic white wine sauce enriched with butter	highland-kitchen-somerville	12.95	1	1	Highland Kitchen
+378	scrod		highland-kitchen-somerville	11.95	5	1	Highland Kitchen
+379	scallops		highland-kitchen-somerville	12.95	5	1	Highland Kitchen
+380	shrimp		highland-kitchen-somerville	12.95	4	1	Highland Kitchen
+381	calamari		highland-kitchen-somerville	11.95	3	1	Highland Kitchen
+382	bbq sausage		highland-kitchen-somerville	9.95	2	1	Highland Kitchen
+383	center cut pork chop		highland-kitchen-somerville	14.95	1	1	Highland Kitchen
+384	sirloin steak tips		highland-kitchen-somerville	12.95	5	1	Highland Kitchen
+385	turkey tenderloin tips		highland-kitchen-somerville	9.95	4	1	Highland Kitchen
+386	baby back ribs - full rack		highland-kitchen-somerville	20.95	3	1	Highland Kitchen
+387	pasta with tomato sauce		highland-kitchen-somerville	8.95	2	1	Highland Kitchen
+388	pasta with meatballs		highland-kitchen-somerville	9.95	1	1	Highland Kitchen
+389	pasta with sausages		highland-kitchen-somerville	11.95	5	1	Highland Kitchen
+390	pasta with clam sauce	(red or white)	highland-kitchen-somerville	9.95	4	1	Highland Kitchen
+391	pasta with garlic and oil		highland-kitchen-somerville	8.95	3	1	Highland Kitchen
+392	fettuccini alfredo		highland-kitchen-somerville	8.95	2	1	Highland Kitchen
+393	baked ziti		highland-kitchen-somerville	9.95	1	1	Highland Kitchen
+394	small cheese pizza		highland-kitchen-somerville	8.95	5	1	Highland Kitchen
+395	large cheese pizza		highland-kitchen-somerville	9.95	4	1	Highland Kitchen
+396	hawaiian pizza	glazed ham | fresh pineapple | mozzarella cheese & tomato sauce	highland-kitchen-somerville	13.95	3	1	Highland Kitchen
+397	broccoli bianco white pizza	crisp broccoli | diced roma tomato | garlic | olive oil | mozzarella cheese	highland-kitchen-somerville	12.95	2	1	Highland Kitchen
+398	bianco white pizza	anchovies | garlic | vinegar peppers | black olives & mozzarella cheese	highland-kitchen-somerville	13.95	1	1	Highland Kitchen
+399	buffalo chicken pizza	spicy chicken tenders | tomato sauce & mozzarella cheese	highland-kitchen-somerville	13.95	5	1	Highland Kitchen
+400	calzones		highland-kitchen-somerville	10.5	5	1	Highland Kitchen
+401	deli cold cut pizza	ham | salami | american & mozzarella cheese & diced tomatoes	highland-kitchen-somerville	10.5	4	1	Highland Kitchen
+402	eggplant parmigiana pizza	breaded eggplant | tomato sauce | mozzarella | romano cheeses	highland-kitchen-somerville	10.5	3	1	Highland Kitchen
+403	chicken & peppers pizza	grilled chicken | roasted peppers | tomatoes | mozzarella cheese	highland-kitchen-somerville	10.5	2	1	Highland Kitchen
+404	spinach pizza	w/ four cheeses sauteed garlic spinach | feta | mozzarella | romano | ricotta	highland-kitchen-somerville	10.5	1	1	Highland Kitchen
+405	chicken & broccoli pizza	grilled chicken | broccoli | garlic | mozzarella & romano cheese	highland-kitchen-somerville	10.5	5	1	Highland Kitchen
+406	italian meatball pizza	homemade meatball | tomato sauce | mozzarella & romano cheese	highland-kitchen-somerville	10.5	4	1	Highland Kitchen
+407	steak pepper & cheese	grilled shaved steak | american & mozzarella cheese	highland-kitchen-somerville	10.5	3	1	Highland Kitchen
+408	quesadillas		highland-kitchen-somerville	7.95	2	1	Highland Kitchen
+409	veal parmigiana sub		highland-kitchen-somerville	7.25	1	1	Highland Kitchen
+410	steak & cheese sub		highland-kitchen-somerville	7.25	5	1	Highland Kitchen
+411	meatball parmigiana sub		highland-kitchen-somerville	7.25	4	1	Highland Kitchen
+412	eggplant parmigiana sub		highland-kitchen-somerville	7.25	3	1	Highland Kitchen
+413	fried haddock & cole slaw sub		highland-kitchen-somerville	7.25	2	1	Highland Kitchen
+414	grilled chicken sub		highland-kitchen-somerville	7.25	1	1	Highland Kitchen
+415	chicken parmigiana sub		highland-kitchen-somerville	7.25	5	1	Highland Kitchen
+416	tuna salad sub		highland-kitchen-somerville	5.25	4	1	Highland Kitchen
+417	bacon | lettuce & tomato sub		highland-kitchen-somerville	5.25	3	1	Highland Kitchen
+418	ham & american cheese sub		highland-kitchen-somerville	5.25	2	1	Highland Kitchen
+419	italian cold cut & cheese sub		highland-kitchen-somerville	7.25	1	1	Highland Kitchen
+420	sausage | onion | peppers sub		highland-kitchen-somerville	7.25	5	1	Highland Kitchen
+421	a country sandwich	made with rustic bread and grilled on a panini grill press served with your choice of french fries or cole slaw.	highland-kitchen-somerville	8.25	5	1	Highland Kitchen
+422	prosciutto	thinly sliced prosciutto | with fresh mozzarella sliced fresh tomato & basil	highland-kitchen-somerville	8.25	4	1	Highland Kitchen
+423	breaded eggplant	with roasted red peppers | sliced artichoke & mozzarella cheese.	highland-kitchen-somerville	8.25	3	1	Highland Kitchen
+424	grilled vegetable	zucchini | summer squash | roasted red peppers & fresh mozzarella.	highland-kitchen-somerville	8.25	2	1	Highland Kitchen
+425	steak & cheese	grilled steak with provolone cheese | mushrooms | peppers and onions.	highland-kitchen-somerville	8.25	1	1	Highland Kitchen
+426	grilled chicken	with fresh tomato | black olives | grilled zucchini & provolone cheese.	highland-kitchen-somerville	8.25	5	1	Highland Kitchen
+427	kids spaghetti & meatballs		highland-kitchen-somerville	6.5	4	1	Highland Kitchen
+428	kids chicken parmigiana	w/ pasta	highland-kitchen-somerville	6.5	3	1	Highland Kitchen
+429	kids cheese ravioli	w/meatball	highland-kitchen-somerville	6.5	2	1	Highland Kitchen
+430	kids cheese ravioli		highland-kitchen-somerville	5.25	1	1	Highland Kitchen
+431	kids grilled hot dog & french fries		highland-kitchen-somerville	4.25	5	1	Highland Kitchen
+432	kids cheeseburger & french fries		highland-kitchen-somerville	5.25	4	1	Highland Kitchen
+433	kids chicken fingers & french fries		highland-kitchen-somerville	5.25	3	1	Highland Kitchen
+434	kids grilled cheese & french fries		highland-kitchen-somerville	4.25	2	1	Highland Kitchen
+435	potlikkers	lightly seasoned broth made from the greens.	redbones-somerville	1.99	1	1	Redbones
+436	kitchen soup		redbones-somerville	1.99	5	1	Redbones
+437	hushpuppies	the legendary fried cornbread | flavored w/ scallions & garlic served w/vinegar sauce.	redbones-somerville	2.99	4	1	Redbones
+438	corn fritters	our own style | served w/real vt. maple syrup.	redbones-somerville	4.99	3	1	Redbones
+439	catfingers	marinated in pepper sauce | breaded & fried w/ our own tartar sauce.	redbones-somerville	4.99	2	1	Redbones
+440	nachos	fresh corn tortilla chips w/2 cheeses | salsa | guacamole | sour cream & jalapenos.	redbones-somerville	8.49	1	1	Redbones
+441	chicken wings	grilled on the pit | served w/slaw & sauce.	redbones-somerville	7.99	5	1	Redbones
+442	buffalo wings	w/bleu cheese.	redbones-somerville	7.99	5	1	Redbones
+443	buffalo shrimp or scallops	fried w/bleu cheese dressing.	redbones-somerville	6.99	4	1	Redbones
+444	texas chili	all meat chili | topped w/cheese & onions.	redbones-somerville	6.99	3	1	Redbones
+445	chili verde	w/chips & cheese pork | tomatillos | jalapenos | cilantro & green chilies.	redbones-somerville	6.99	2	1	Redbones
+446	sausage of the day	homemade with mustard.	redbones-somerville	4.99	1	1	Redbones
+447	bbq hash	pulled pork | bbq beef | potatoes | peppers and spices.	redbones-somerville	4.99	5	1	Redbones
+448	fried okra	breaded & deep fried | served w/salsa.	redbones-somerville	6.99	4	1	Redbones
+449	fried oysters	w/chipotle tartar sauce.	redbones-somerville	7.99	3	1	Redbones
+450	corn pudding	southern specialty w/mild chilies & cheese.	redbones-somerville	4.99	2	1	Redbones
+451	garden salad	greens and garnishe with vinaigrette.	redbones-somerville	4.99	1	1	Redbones
+452	succotash	lima beans | corn | peppers and onions - no meat.	redbones-somerville	4.99	5	1	Redbones
+453	dirty rice	cajun rice with chicken livers | ground pork | peppers and spices.	redbones-somerville	4.99	4	1	Redbones
+454	onion strings		redbones-somerville	3.99	3	1	Redbones
+455	french fries	handcut.	redbones-somerville	3.99	2	1	Redbones
+456	sweet potato fries		redbones-somerville	4.99	1	1	Redbones
+457	fried pickles		redbones-somerville	4.99	5	1	Redbones
+458	garlic mashed potatoes		redbones-somerville	2.99	4	1	Redbones
+459	crispy potatoes		redbones-somerville	2.99	3	1	Redbones
+460	grilled veggies		redbones-somerville	4.99	2	1	Redbones
+461	mac n' cheese		redbones-somerville	4.99	1	1	Redbones
+462	collard greens	some meat.	redbones-somerville	4.99	5	1	Redbones
+463	candied yams		redbones-somerville	4.99	5	1	Redbones
+464	steamed broccoli	with lemon.	redbones-somerville	4.99	4	1	Redbones
+465	potato salad		redbones-somerville	2.99	3	1	Redbones
+466	coleslaw		redbones-somerville	2.99	2	1	Redbones
+467	beans		redbones-somerville	2.99	1	1	Redbones
+468	atomic corn relish	hot.	redbones-somerville	1.99	5	1	Redbones
+469	appetizer combo one	buffalo shrimp | catfingers | hushpuppies & fried okra w/ bleu cheese | vinegar sauce | tartar sauce & salsa	redbones-somerville	17.99	4	1	Redbones
+470	appetizer combo two	sausage | st. louis style ribs | wings and hushpuppies with mustard and barbecue sauces.	redbones-somerville	17.99	3	1	Redbones
+471	appetizer combo three	3 st. louis ribs & 3 grilled wings w/ bbq sauces.	redbones-somerville	15.99	2	1	Redbones
+472	arkansas	ribs: one perfect rib	redbones-somerville	4.99	1	1	Redbones
+473	memphis	ribs: one perfect rib	redbones-somerville	4.99	5	1	Redbones
+474	texas bee	ribs: one perfect rib	redbones-somerville	5.99	4	1	Redbones
+475	st. louis	ribs: one perfect rib	redbones-somerville	4.99	3	1	Redbones
+476	baby back (3)	ribs: perfect ribs	redbones-somerville	5.99	2	1	Redbones
+477	pulled pork sandwich	slow smoked pork.	redbones-somerville	7.99	1	1	Redbones
+478	bbq beef sandwich	chopped brisket.	redbones-somerville	7.99	5	1	Redbones
+479	sliced brisket	lean | tender beef.	redbones-somerville	8.99	4	1	Redbones
+480	pulled chicken	chopped chicken | brown sugar | mustard & spices.	redbones-somerville	7.99	3	1	Redbones
+481	jerk beef bbq	jamaican heat.	redbones-somerville	7.99	2	1	Redbones
+482	grilled sausage	made here daily w/ lettuce | tomato & mustard.	redbones-somerville	7.99	1	1	Redbones
+483	fried catfish	w/ lettuce | tomato & tartar sauce | plate w/ potato salad & cole slaw.	redbones-somerville	7.99	5	1	Redbones
+484	grilled chicken breast	with lettuce and tomato.	redbones-somerville	7.99	5	1	Redbones
+485	poboy dinner	fried oysters on a hot dog roll w/ chipotle tartar sauce and fries.	redbones-somerville	12.99	4	1	Redbones
+486	portabello mushroom	grilled & served w/ onion merlot jam & small salad.	redbones-somerville	7.99	3	1	Redbones
+487	grilled veggie burger	tomato | lettuce | and salsa. comes w/ small salad.	redbones-somerville	6.99	2	1	Redbones
+488	arkansas rib	thick cut | country style | pork.	redbones-somerville	6.99	1	1	Redbones
+489	memphis ribs	traditional pork spareribs.	redbones-somerville	6.99	5	1	Redbones
+490	texas beef ribs	slo' smoked and big.	redbones-somerville	6.99	4	1	Redbones
+491	smoked beef brisket	tender sliced beef.	redbones-somerville	6.99	3	1	Redbones
+492	st. louis style ribs	tender pork ribs.	redbones-somerville	6.99	2	1	Redbones
+493	baby back ribs	lean & tender pork ribs.	redbones-somerville	6.99	1	1	Redbones
+494	the barbecue belt	taste of the south with memphis | texas | arkansas and brisket.	redbones-somerville	21.99	5	1	Redbones
+495	wood grilled chicken	a tender 1/4 or 1/2 chicken | grilled on the pit.	redbones-somerville	6.99	4	1	Redbones
+496	bbq hash dinner	pulled pork | bbq beef | peppers | potatoes | onions w/greens & beans.	redbones-somerville	10.99	3	1	Redbones
+497	pulled pork or jerk beef (hot) or bbq beef or pulled chicken dinner	a mound of meat served w/ beans & cole slaw.	redbones-somerville	12.99	2	1	Redbones
+498	sausage dinner	todays sausage | made here! served w/dirty rice & beans.	redbones-somerville	10.99	1	1	Redbones
+499	fried louisiana catfish dinner	marinated in pepper sauce | served with potato salad | slaw | hushpuppies and tartar sauce.	redbones-somerville	15.99	5	1	Redbones
+500	buffalo shrimp dinner	deep fried w/ bleu cheese sauce | ff & cole slaw.	redbones-somerville	15.99	4	1	Redbones
+501	grilled/fried shrimp or scallop platter	w/ garlic mashed potatoes & broccoli.	redbones-somerville	15.99	3	1	Redbones
+502	grilled salmon	fresh salmon | grilled w/ crispy potatoes & cole slaw.	redbones-somerville	15.99	2	1	Redbones
+503	grilled fresh fish of the day	grilled w/ crispy potatoes & cole slaw.	redbones-somerville	16.99	1	1	Redbones
+504	redbone's t-bone	16 oz t-bone | grilled to order w/ ff & cole slaw.	redbones-somerville	17.99	5	1	Redbones
+505	steak tips	w/ garlic mashed potatoes & broccoli.	redbones-somerville	14.99	5	1	Redbones
+506	easy order dinner for 4	1 rack memphis | st. louis or texas beef ribs | 1/2 bbq chicken or jerk chicken | 1 pt. pull pork | bbq beef | pull chicken or jerk beef | 1 pt. beans & 1 qt. cole slaw | 4 pieces of cornbread | 4 rolls & bbq sauces.	redbones-somerville	59.99	4	1	Redbones
+507	easy order dinner for 6	1 1/2 racks memphis | st. louis or texas beef ribs | 1 whole bbq chicken or jerk chicken | 2 pts. pull pork or bbq beef or pull chicken or jerk beef | 1 qt. beans & 1 qt. cole slaw | 6 pieces of cornbread | 6 rolls & 4 bbq sauces.	redbones-somerville	89.99	3	1	Redbones
+508	pecan pie		redbones-somerville	4.99	2	1	Redbones
+509	sweet potato pie		redbones-somerville	4.99	1	1	Redbones
+510	caramel custard		redbones-somerville	4.99	5	1	Redbones
+511	white trash sundae		redbones-somerville	4.99	4	1	Redbones
+512	key lime pie		redbones-somerville	4.99	3	1	Redbones

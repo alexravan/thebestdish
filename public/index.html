@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>TBD</title>
+
+    <!-- Bootstrap core CSS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+
+    <!-- Custom styles for this template -->
+    <link href="index-style.css" rel="stylesheet">
+
+
+     <!-- Google map script -->
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script src="RestaurantMap.js"></script>
+    <script>
+        function err(){
+            console.log("inside err")
+            $("#mainbox").html("<h3>We couldn't find that particular item near you. Try a different item!</h3>");
+        }
+        function parseData (data){
+            console.log("Inside parseData");
+            if(data[0] == null){
+                err();
+            }else{
+                data.sort(function(a,b) { 
+                    if(b.rating == a.rating){
+                        return parseFloat(b.total-a.total);
+                    }else{
+                        return parseFloat(b.rating-a.rating);
+                    }
+                    parseFloat(b.rating) - parseFloat(a.rating) }
+                );
+                $('#Dishes').html("");
+            
+                for(i=0; i < data.length; i++ ){
+                    yelpid = data[i]['yelpid'];
+                    restname = data[i]['restname'];
+                    console.log("restname: " + restname);
+                    foodName = data[i]['foodname'];
+                    descrip = data[i]['description'];
+                    price = data[i]['price'];
+                    rating = data[i]['rating'];
+                    totalRatings = data[i]['total'];
+                    stars = (rating/totalRatings);
+                    $('#Dishes').append("<h3>" + foodName + ": <a href='" + yelpid + ".html'>" + restname + "</a></h3><p>" + descrip+ "</p><p>$" + price + " | Stars: "+ Math.ceil(stars) + "</p>");
+                }
+            }
+        }
+        function serverRequest(searchTerm) {
+            console.log("Inside serverRequest");
+            // var request = $.get('http://localhost:3000/search.json');
+            // request.done(function(data) {
+            //     parseData(data);
+            // });
+            // request.fail(function(jqXHR, textStatus, errorThrown) {
+            //     if (textStatus == 'timeout' || textStatus == 'error'){
+            //         err();
+            //     }
+            // });
+            $.get("http://localhost:3000/search.json", { lookup : searchTerm }, 
+                function(data){
+                    parseData(data)}, "json" );
+        }
+        function enter() {
+            console.log("inside enter function");
+            init();
+            $(document).keypress(function (event) {
+                if (event.which == 13) {
+                    value = $("#food").val();
+                    $('#food').val("");
+                //     console.log(value);yy
+                //      //$("#insert").html("<span>" + value + "</span>"); 
+                    serverRequest(value);
+                     $('#mainbox').html("<h2>Here's the best " + value + " we could find near you.</h2>");
+                     
+                //     // $("#log").append("<p>"value"</p>"); 
+                    return false;
+                }
+            });
+            // $("#food").click(function () {
+            //     var e = jQuery.Event('keypress');
+            //     e.which = 13; // #13 = Enter key
+            // });
+        }
+    function getRandom(min,max) {
+        var res =  Math.floor(Math.random() * (max+1 - min) + min);
+        return res;
+    }
+    function randomImage () {
+      var rImage = 'url(./foodimgs/' + getRandom(1,12) + '.jpg';
+        rImage = "'" + rImage + "'";
+      // document.getElementById("foodimg").stylground =e.back "url('/foodimgs/5.jpg');";
+      $('body').css('background-image', 'url(./foodimgs/' + getRandom(1, 9) +'.jpg)');
+       $('body').css('background-size', '100%');
+      var image = '/foodimgs/5.jpg';
+      console.log(image);
+      // document.getElementById("foodimg").style.background-repeat = 'both';
+      // getRandom(1,9) + ".jpg');";
+      
+    }
+    </script>
+
+  </head>
+
+  <body onload="init()">
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> -->
+            <!-- <span class="sr-only">Toggle navigation</span> -->
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">TBD</a>
+        </div>
+        <!-- <div id="navbar" class="navbar-collapse collapse"> -->
+         
+        <!-- </div>/.navbar-collapse  -->
+      </div>
+    </nav>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron" id='foodimg'>
+        <script>randomImage();</script>
+          <!-- <div id='foodimg' ><script>randomImage();</script></div> -->
+        <div class="container">
+            <div class= "row">
+                <div class="col-xs-8">
+                    <h1>Welcome to TBD!</h1>
+                    <p>Where we find <strong>T</strong>he <strong>B</strong>est <strong>D</strong>ish for you!</p>
+             
+                    <p>Let's get started. What are you looking to eat?</p>
+
+                    <input type="text" class="input-lg" id="food" name="food" size="40" placeholder="..." /></h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-8">
+                    <p><a class="btn btn-warning btn-lg" href="#" role="button">Search &raquo;</a></p>
+                    <p id="mainbox"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="jumbotron">
+        <div id="listings" class="container">
+            <div class="row">
+                <div class="col-sm-6 col-xs-10 col-sm-offset-0 col-xs-offset-2">
+                    <div class="map-container">
+                        <div id="map-canvas" class="map-canvas"><h1>Map canvas.</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xs-10 col-sm-offset-0 col-xs-offset-2">
+                    <div id = "Dishes">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--     <div class="jumbotron" id="footer">
+      <div class='container'>
+        <footer>
+          <p>&copy; The Best Dish, LLC. 2015</p>
+        </footer>
+     </div>
+    </div> --> 
+    <script>$(window).load(enter());
+    </script>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster
+    
+    <script src="boostrap/js/bootstrap.min.js"></script>-->
+  </body>
+</html>

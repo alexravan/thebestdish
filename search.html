@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+
+    <title>Jumboz Menuzz</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="customtheme.css" rel="stylesheet">
+    // <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+        <script type="text/javascript" src="http://oauth.googlecode.com/svn/code/javascript/oauth.js"></script>
+        <script type="text/javascript" src="http://oauth.googlecode.com/svn/code/javascript/sha1.js"></script>
+
+
+<!--
+    <script>
+      $(function () {
+            $('#searchfood').keypress(function (event) {
+                if (event.which == 13) {
+                    value = $("#searchfood").val();
+                    // message += " " + value;
+                    $('#searchfood').val("");
+                    console.log(value);
+                     $("#insert").html("<span>" + value + "</span>"); 
+
+                    // $("#log").append("<p>"value"</p>"); 
+                    //return false;
+                }
+            });
+
+            $("#searchfood").click(function () {
+                var e = jQuery.Event('keypress');
+                e.which = 13; // #13 = Enter key
+            });
+        });
+
+    </script>   -->
+    
+    <script type="text/javascript">
+         //function yelp ()  { 
+
+          var auth = {
+                //
+                // Update with your auth tokens.
+                //
+                consumerKey : 'ZOg1zJXufWwal7o-e9DX3g',
+                consumerSecret : "YDy_HjtvFcWDfTAdV7byvN0M0r4",
+                accessToken : "NfSGRjo-91bjzaKOo9v6qaFTAPZb8oX1",
+                // This example is a proof of concept, for how to use the Yelp v2 API with javascript.
+                // You wouldn't actually want to expose your access token secret like this in a real application.
+                accessTokenSecret : "Zg7NX9jMHPw79RjlHTKCYthmICk",
+                serviceProvider : {
+                    signatureMethod : "HMAC-SHA1"
+                }
+            };
+
+            searchFood = $("#searchfood").val();
+            searchLoc = $("#location").val();
+                  console.log(searchFood);
+                  var terms = "seafood";// "'" + searchFood + "'";
+            var near = "90210";
+
+            var accessor = {
+                consumerSecret : auth.consumerSecret,
+                tokenSecret : auth.accessTokenSecret
+            };
+            parameters = [];
+            parameters.push(['term', terms]);
+            parameters.push(['location', near]);
+            parameters.push(['callback', 'cb']);
+            parameters.push(['oauth_consumer_key', auth.consumerKey]);
+            parameters.push(['oauth_consumer_secret', auth.consumerSecret]);
+            parameters.push(['oauth_token', auth.accessToken]);
+            parameters.push(['oauth_signature_method', 'HMAC-SHA1']);
+
+            var message = {
+                'action' : 'http://api.yelp.com/v2/search',
+                'method' : 'GET',
+                'parameters' : parameters
+            };
+
+            OAuth.setTimestampAndNonce(message);
+            OAuth.SignatureMethod.sign(message, accessor);
+
+            var parameterMap = OAuth.getParameterMap(message.parameters);
+
+            var Resname;
+            var phone;
+            var rating;
+            var reviewCount;
+            var address;
+            var citystate;
+
+            $.ajax({
+                'url' : message.action,
+                'data' : parameterMap,
+                'dataType' : 'jsonp',
+                'jsonpCallback' : 'cb',
+                'success' : function(data, textStats, XMLHttpRequest) {
+                    // console.log(data);
+                    console.log(data);
+                    // console.log(data.busindvesses[1].);
+                    
+
+                      Resname = String(data.businesses[0].name);
+                      phone = data.businesses[0].display_phone;
+                      rating = data.businesses[0].rating;
+                      reviewCount = data.businesses[0].review_count;
+                      address = data.businesses[0].location.address[0];
+                      citystate = data.businesses[0].location.city + ", " + data.businesses[0].location.state_code + " " + data.businesses[0].location.postal_code;
+                      // console.log(Resname);
+                      printRes (Resname, phone, rating, reviewCount, address, citystate);
+
+
+                }
+
+            });
+
+
+        
+
+        function printRes (name, phone, rating, reviewCount, address, citystate) {
+
+          console.log(name);
+          console.log(phone);
+              $('#addRest').html("<p>" + name + "</p>");
+              $('#addRest').append("<p> Phone: " + phone + "</p>");
+              $('#addRest').append("<p> Rating: " + rating + "</p>");
+              $('#addRest').append("<p> Number of Reviews: " + reviewCount + "</p>");
+              $('#addRest').append("<p>" + address + "</p>");
+              $('#addRest').append("<p>" + citystate + "</p>");
+
+        }
+//    }
+    </script>
+
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Pastabilities</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right">
+            <div class="form-group">
+              <input type="text"  placeholder="I'm looking for" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="text" placeholder="Near" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-warning">Search</button>
+          </form>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <div class="page-header">
+          <h1>I'm looking for: <input type="text" id="searchfood" name="searchfood" size="15" value="seafood" /></h1>
+
+
+          <p><a href="#" onClick="yelp();">Search</a></p>
+        </div>
+        <h3>Here are the restaurants with the best <span id="insert">________
+        </span>  near you.</h3>
+      </div>
+    </div>
+  </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+       </div>
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
+      </div>
+
+      <hr>
+
+      <footer>
+        <p>&copy; Company 2014</p>
+      </footer>
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    
+  </body>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <!--  <script src="../../dist/js/bootstrap.min.js"></script> -->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug 
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script> -->
+
+  
+  
+
+
+</html>

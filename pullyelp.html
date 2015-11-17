@@ -1,0 +1,126 @@
+<html>
+		<head>
+				<title>Yelp OAuth Example</title>
+				<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+				<script type="text/javascript" src="http://oauth.googlecode.com/svn/code/javascript/oauth.js"></script>
+				<script type="text/javascript" src="http://oauth.googlecode.com/svn/code/javascript/sha1.js"></script>
+				
+
+
+		</head>
+		<body>
+				<h1>I'm looking for: <input type="text" id="searchfood" name="searchfood" size="40" value="seafood" /></h1>
+				<h1>Near <input type="text" id="location" name="location" size="15" value="02155" /></h1>
+				<p><a href="#" onClick="yelp();">Search</a></p>
+
+				<h3>Here are the restaurants with the best <span id="insert">________
+        </span>  near you.</h3>
+
+        <h5 id='addRest'> </h3>
+		</body>
+		
+		<script type="text/javascript">
+				 function yelp () { var auth = {
+								//
+								// Update with your auth tokens.
+								//
+								consumerKey : 'ZOg1zJXufWwal7o-e9DX3g',
+								consumerSecret : "YDy_HjtvFcWDfTAdV7byvN0M0r4",
+								accessToken : "NfSGRjo-91bjzaKOo9v6qaFTAPZb8oX1",
+								// This example is a proof of concept, for how to use the Yelp v2 API with javascript.
+								// You wouldn't actually want to expose your access token secret like this in a real application.
+								accessTokenSecret : "Zg7NX9jMHPw79RjlHTKCYthmICk",
+								serviceProvider : {
+										signatureMethod : "HMAC-SHA1"
+								}
+						};
+
+						searchFood = $("#searchfood").val();
+						searchLoc = $("#location").val();
+           				console.log(searchFood);
+            			var terms = "'" + searchFood + "'";
+						var near = "'" + searchLoc + "'";
+
+						var accessor = {
+								consumerSecret : auth.consumerSecret,
+								tokenSecret : auth.accessTokenSecret
+						};
+						parameters = [];
+						parameters.push(['term', terms]);
+						parameters.push(['location', near]);
+						parameters.push(['callback', 'cb']);
+						parameters.push(['oauth_consumer_key', auth.consumerKey]);
+						parameters.push(['oauth_consumer_secret', auth.consumerSecret]);
+						parameters.push(['oauth_token', auth.accessToken]);
+						parameters.push(['oauth_signature_method', 'HMAC-SHA1']);
+
+						var message = {
+								'action' : 'http://api.yelp.com/v2/search',
+								'method' : 'GET',
+								'parameters' : parameters
+						};
+
+						OAuth.setTimestampAndNonce(message);
+						OAuth.SignatureMethod.sign(message, accessor);
+
+						var parameterMap = OAuth.getParameterMap(message.parameters);
+
+						var Resname;
+						var phone;
+						var rating;
+						var reviewCount;
+						var address;
+						var citystate;
+
+						$.ajax({
+								'url' : message.action,
+								'data' : parameterMap,
+								'dataType' : 'jsonp',
+								'jsonpCallback' : 'cb',
+								'success' : function(data, textStats, XMLHttpRequest) {
+										// console.log(data);
+										console.log(data);
+										// console.log(data.busindvesses[1].);
+										
+
+											Resname = String(data.businesses[0].name);
+										  phone = data.businesses[0].display_phone;
+											rating = data.businesses[0].rating;
+											reviewCount = data.businesses[0].review_count;
+											address = data.businesses[0].location.address[0];
+											citystate = data.businesses[0].location.city + ", " + data.businesses[0].location.state_code + " " + data.businesses[0].location.postal_code;
+											lat = data.businesses[0].location.coordinate.latitude;
+											lng = data.businesses[0].location.coordinate.longitude;
+											// console.log(Resname);
+											printRes (Resname, phone, rating, reviewCount, address, citystate, lat, lng);
+
+
+								}
+
+						});
+
+
+				}
+
+				function printRes (name, phone, rating, reviewCount, address, citystate, lat, lng) {
+
+					console.log(name);
+					console.log(phone);
+					 		$('#addRest').html("<p>" + name + "</p>");
+							$('#addRest').append("<p> Phone: " + phone + "</p>");
+							$('#addRest').append("<p> Rating: " + rating + "</p>");
+							$('#addRest').append("<p> Number of Reviews: " + reviewCount + "</p>");
+							$('#addRest').append("<p>" + address + "</p>");
+							$('#addRest').append("<p>" + citystate + "</p>");
+							$('#addRest').append("<p>" + lat + "</p>");
+							$('#addRest').append("<p>" + lng + "</p>");
+
+
+
+
+					}
+
+				</script>
+
+
+</html>

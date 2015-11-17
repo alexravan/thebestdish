@@ -1,0 +1,100 @@
+.jumbotron {
+	/*background-size: 300px;*/
+	/*height: 100%;*/
+	/*opacity: .5;*/
+	background: url('foodimgs/white50-01.png');
+
+}
+
+.bgfood {
+	background: url('about/foodbackground.png');
+	background-size: 400px 200px;
+}
+.round {
+	border-radius: 50%;
+	overflow: hidden;
+	margin-bottom: 10%;
+	max-width: 100%;
+	max-height: 100%;
+}
+.heading {
+	padding: 30px;
+}
+.square {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    margin: 10px;
+    position: relative;
+}
+
+.white70 {
+	background: url("foodimgs/white50-01.png");
+	padding-bottom: 40px;
+
+}
+#footer {
+		background: url("foodimgs/white50-01.png")
+}
+
+#black {
+	color: #212121;
+}
+
+
+
+.black {
+	color: #212121;
+}
+
+#menufooter {
+	color: #ddd;
+	display: block;  
+	vertical-align: bottom;
+	min-height: 50px;
+	background-color: #212121;
+}
+.topinfo {
+	color: #212121;
+	/*background-color: #EFAC56;*/
+}
+
+.mainimg {
+	max-width: 300px;
+}
+.center {
+  display: block;  
+  margin-right: auto;  
+  margin-left: auto; 
+}
+
+.centertext{
+	text-align: center;
+}
+body {
+	padding-top: 70px;
+}
+
+#foodimg {
+
+
+}
+
+.white {
+
+}
+.dish h3 {
+	
+}
+
+.price {
+	font-size: 20px;
+}
+
+.dropdown {
+	padding-top: 20px;
+}
+
+.rate {
+	text-align: middle;
+}

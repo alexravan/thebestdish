@@ -1,0 +1,134 @@
+foodid	foodname	description	yelpid	price	rating	total
+1	“cholo” corn cob	garlic mojo mayo | cotija cheese | cayenne	the-painted-burro-somerville	6	1	1
+2	dos empanadas	spiced beef | chipotle & spinach | oven dried onion dip	the-painted-burro-somerville	8	2	1
+3	mango guacomole	avocados | serrano chile | cilantro | lime & red onion	the-painted-burro-somerville	10	3	1
+4	skillet roasted shrimp al ajillo	garlic | chipotle butter | stone ground grits	the-painted-burro-somerville	12	4	1
+5	chicharrón & mango	crispy pork belly | serrano chile & tamarind glaze | frisée salad	the-painted-burro-somerville	7	5	1
+6	duck quesadilla	roasted fig | apricot & cranberry salsa | duck confit | tres quesos | mexican crema	the-painted-burro-somerville	12	1	1
+7	“el mero mero” guacomole	avocados | cilantro | salt | lime & white onion	the-painted-burro-somerville	9	2	1
+8	chalupas	corn masa griddle cakes | crispy apples | goat cheese | roasted jalapeño agave nectar	the-painted-burro-somerville	12	3	1
+9	pumpkin fundido	warm tres quesos dip | roasted squash & sugar pumpkin purée | spiced pepitas & soft corn tortillas	the-painted-burro-somerville	12	4	1
+10	kale salad	jicama | carrots | cheesy whole grain mustard dressing | toasted corn nut crumble	the-painted-burro-somerville	11	5	1
+11	goat cheese & beet salad	orange & cilantro vinaigrette | mizuna | fresh avocado	the-painted-burro-somerville	12	1	1
+12	burro “caesar” salad	avocado dressing | tomatillo & agave vinaigrette | queso viejo | anchovy | spiced pepitas	the-painted-burro-somerville	9	2	1
+13	heirloom squash & apple enchilladas	roasted blue hubbard | kuri & pumpkin | macomber turnip | garlicky swiss chard | apple & poblano mole | tres quesos	the-painted-burro-somerville	17	3	1
+14	pork carnitas y dos salsas enchilladas	ed wine & cola mole | tomatillo & cilantro bechamela | tres quesos	the-painted-burro-somerville	19	4	1
+15	duck carnitas enchillas	zucchini | tres quesos | refried black beans | yellow mole	the-painted-burro-somerville	20	5	1
+16	roasted achiote chicken enchilladas	smoked chile & roasted tomato salsa | tres quesos | cherry tomato salad	the-painted-burro-somerville	18	1	1
+17	street cart chicken	1/2 roaster | achiote-citrus marinade | kale & fried plantain | creamy poblano rice | tamarind butter	the-painted-burro-somerville	18	2	1
+18	grilled swordfish	coconut & cilantro rice | jumbo lump crab | mango & papaya salad	the-painted-burro-somerville	22	3	1
+19	short rib barbacoa	roasted autumn carrots | charred onions | kale | creamy oaxacan grits | red wine mole | cotija	the-painted-burro-somerville	24	4	1
+20	grilled pork chop	sweet corn polenta | rainbow chard | roasted peach & serrano salsa	the-painted-burro-somerville	19	5	1
+21	pork barbacoa torta	cider braised pork | guajillo mole | tres queso | roasted apples | mizuna	the-painted-burro-somerville	13	1	1
+22	chicken milanesa torta	crisp chicken breast | oaxaca cheese | guacamole | red onion | pico de gallo | roasted garlic mayo	the-painted-burro-somerville	13	2	1
+23	blackened fish torta	spice rubbed striped bass | radish & cilantro salad | serrano & pickled jalapeño mayo	the-painted-burro-somerville	14	3	1
+24	carnitas cubano torta	pork carnitas | sliced ham | swiss cheese | jicama & apple slaw | cilantro | “salsa mil islas”	the-painted-burro-somerville	13	4	1
+25	street-style hot dog torta	all-beef pearl dog | cabbage & jalapeño slaw | chicharron | chipotle ketchup | agave mustard | grilled roll	the-painted-burro-somerville	9	5	1
+26	chorizo nachos	guacamole | pork charro beans | cabbage & jalapeño slaw | pimpin’ jalapeños | tres quesos | baja cream | chipotle mayo	the-painted-burro-somerville	14	1	1
+27	oaxaca cheese grits		the-painted-burro-somerville	3	2	1
+28	kale & plantain		the-painted-burro-somerville	7	3	1
+29	cabbage & jalapeño slaw		the-painted-burro-somerville	2	4	1
+30	pork charro beans		the-painted-burro-somerville	2	5	1
+31	creamy poblano rice		the-painted-burro-somerville	4	1	1
+32	egg rolls (2)		roses-chinese-restaurant-medford	3.85	2	1
+33	scallion pie		roses-chinese-restaurant-medford	4.55	3	1
+34	crab rangoon (10)		roses-chinese-restaurant-medford	6.25	4	1
+35	shao mai (6)	a steamed dumpling stuffed w. pork | shrimp & vegetable	roses-chinese-restaurant-medford		5	1
+36	szechuan wonton	w. peanut buttery sauce	roses-chinese-restaurant-medford	5.55	1	1
+37	steamed vegetarian dumplings (6)		roses-chinese-restaurant-medford	6.55	2	1
+38	peking ravioli (6)	pan fried or steamed	roses-chinese-restaurant-medford	6.55	3	1
+39	fried chicken wings (7)		roses-chinese-restaurant-medford	7.95	4	1
+40	chicken teriyaki (6)		roses-chinese-restaurant-medford	7.25	5	1
+41	beef teriyaki		roses-chinese-restaurant-medford	7.95	1	1
+42	boneless spare ribs		roses-chinese-restaurant-medford	7.95	2	1
+43	shrimp toast (8)		roses-chinese-restaurant-medford	6.25	3	1
+44	house dumplings (10)		roses-chinese-restaurant-medford	6.75	4	1
+45	hot & sour soup		roses-chinese-restaurant-medford	3.65	5	1
+46	wonton soup		roses-chinese-restaurant-medford	3.65	1	1
+47	egg drop soup		roses-chinese-restaurant-medford	3.65	2	1
+48	three delight soup	shredded chicken | pork | beef with assorted vegetables	roses-chinese-restaurant-medford	7.25	3	1
+49	general gau's chicken	crispy chicken chunks in a spicy orange flavored sauce	roses-chinese-restaurant-medford	9.25	4	1
+50	szechuan style fish fillet	with ground pork in a spicy brown sauce	roses-chinese-restaurant-medford	10.25	5	1
+51	orange sesame chicken		roses-chinese-restaurant-medford	9.55	1	1
+52	sweet & sour chicken		roses-chinese-restaurant-medford	8.85	2	1
+53	chicken with cashew nuts		roses-chinese-restaurant-medford	8.85	3	1
+54	chicken with broccoli		roses-chinese-restaurant-medford	8.85	4	1
+55	moo goo gai pan		roses-chinese-restaurant-medford	8.85	5	1
+56	sauteed chicken with vegetables		roses-chinese-restaurant-medford	8.85	1	1
+57	chicken with garlic sauce		roses-chinese-restaurant-medford	8.85	2	1
+58	kung pao chicken		roses-chinese-restaurant-medford	8.85	3	1
+59	chicken with chinese eggplant		roses-chinese-restaurant-medford	8.85	4	1
+60	peking duck (whole)	tender duck marinated in a special sauce & expertly roasted. the duck is then deponed & the meat is served separately from the skin. accompanied w. steamed buns (or pancakes) | scallion brushes & hoisin sauce	roses-chinese-restaurant-medford	31.75	5	1
+61	orange sesame beef		roses-chinese-restaurant-medford	10.25	1	1
+62	beef with pea pods		roses-chinese-restaurant-medford	9.85	2	1
+63	beef with mushrooms		roses-chinese-restaurant-medford	9.85	3	1
+64	beef with broccoli		roses-chinese-restaurant-medford	9.85	4	1
+65	shredded beef peking style	stir-fried with hoisin sauce with 3-5 pancakes	roses-chinese-restaurant-medford	9.85	5	1
+66	kung pao beef with peanuts		roses-chinese-restaurant-medford	9.85	1	1
+67	szechuan style beef	with celery and carrots in a hot chili sauce	roses-chinese-restaurant-medford	9.85	2	1
+68	mongolian beef		roses-chinese-restaurant-medford	9.85	3	1
+69	rose's spare ribs		roses-chinese-restaurant-medford	8.55	4	1
+70	pork with broccoli		roses-chinese-restaurant-medford	8.55	5	1
+71	pork with ginger & scallion		roses-chinese-restaurant-medford	8.55	1	1
+72	pork with black bean sauce		roses-chinese-restaurant-medford	8.55	2	1
+73	pork peking style	stir-fired with hoisin sauce served with 3-5 pancakes	roses-chinese-restaurant-medford	8.55	3	1
+74	pork with garlic sauce		roses-chinese-restaurant-medford	8.55	4	1
+75	vegetarian's delight		roses-chinese-restaurant-medford	8.25	5	1
+76	four treasure vegetable	pea pods | water chestnuts | black mushrooms and baby corns in a brown sauce	roses-chinese-restaurant-medford	8.25	2	1
+77	sauteed string beans		roses-chinese-restaurant-medford	8.25	3	1
+78	broccoli with oyster sauce		roses-chinese-restaurant-medford	8.25	4	1
+79	broccoli with garlic sauc		roses-chinese-restaurant-medford	8.25	5	1
+80	chinese eggplant with garlic sauce		roses-chinese-restaurant-medford	8.25	1	1
+81	fried bean curd family style		roses-chinese-restaurant-medford	8.25	2	1
+82	sauteed shanghai baby bok choy		roses-chinese-restaurant-medford	8.25	3	1
+83	lo mein	choice: shrimp | pork | beef | chicken or vegetables	roses-chinese-restaurant-medford	7.25	4	1
+84	the house special lo mein		roses-chinese-restaurant-medford	7.85	5	1
+85	shang-hai pan fried noodles	topping with shrimp | pork | chicken & vegetables	roses-chinese-restaurant-medford	9.75	1	1
+86	pan fried noodles with vegetables		roses-chinese-restaurant-medford	8.95	2	1
+87	dan dan mein	noodles with bean sprouts in a spicy peanut buttery sauce	roses-chinese-restaurant-medford	7.25	3	1
+88	chow fun	choice | shrimp | pork | beef | chicken or vegetable	roses-chinese-restaurant-medford	8.45	4	1
+89	eight delight chow fun	shrimp | scallops | squid | chicken | pork & mixed vegs	roses-chinese-restaurant-medford	11.25	5	1
+90	singapore style rice sticks		roses-chinese-restaurant-medford	8.25	1	1
+91	house special rice sticks		roses-chinese-restaurant-medford	8.25	2	1
+92	fried rice	choice: shrimp | pork | beef | chicken or vegetable	roses-chinese-restaurant-medford	6.65	3	1
+93	chicken & pineapple fried rice		roses-chinese-restaurant-medford	7.55	4	1
+94	the house special fried rice	white style | served with shrimp | chicken and pork.	roses-chinese-restaurant-medford	7.55	5	1
+95	boiled white rice		roses-chinese-restaurant-medford	2.95	1	1
+96	pad thai	choice: shrimp | pork | beef | chicken or vegetable	roses-chinese-restaurant-medford	8.55	2	1
+97	house special pad thai	served w. shrimp | chicken & pork	roses-chinese-restaurant-medford	8.75	3	1
+98	pane	rosemary sea salt bread	posto-somerville	2.5	4	1
+99	oliva	warm olives | orange | rosemary | arbol chile	posto-somerville	5	5	1
+100	bruschetta	roasted grape tomatoes | goat cheese | basil | vincotto	posto-somerville	15	1	1
+101	arancini	crispy arborio rice | lemon | oregano | spicy sweet & sour tomato sauce	posto-somerville	11	2	1
+102	calamari	crispy point judith squid | lemon | pine nut romesco	posto-somerville	14	3	1
+103	meatballs	nonna’s recipe | pomodoro | mozzarella	posto-somerville	12	4	1
+104	burrata	maple brook farms vt | roasted vine-on tomatoes | house made lonza	posto-somerville	16	5	1
+105	carpaccio	raw sliced beef | parmesan | upland cress | black truffle aioli	posto-somerville	13	1	1
+106	caesar	white anchovies | parmesan croutons	posto-somerville	11	2	1
+107	arugula	endive | gorgonzola picante | red onion | honey & thyme vinaigrette	posto-somerville	12	3	1
+108	octopus salad	green & golden pole beans | salsa verde | red onion | olives	posto-somerville	14	4	1
+109	tortellini	jonah crab | spring pea brodo | parmesan crema | radish | pea tendril	posto-somerville	22	5	1
+110	gnocchi	braised beef short ribs | red wine sauce | parmesan	posto-somerville	22	1	1
+111	lasagne	cauliflower misto | sage pasta | spinach | parmesan & fontina bechamel	posto-somerville	18	2	1
+112	tagliatelle	ragu bolognese | veal | beef | pork | parmesan	posto-somerville	20	3	1
+113	ravioli	white asparagus | ricotta | carrot-ginger brodo | chervil	posto-somerville	21	4	1
+114	spaghetti	spicy tomato amatriciana | pork guanciale | pecorino toscano | basil	posto-somerville	20	5	1
+115	veal	saltimbocca | prosciutto | sage | soft mascarpone polenta | mushrooms | marsala	posto-somerville	23	1	1
+116	pork chop	10 oz grilled | creamy polenta | grilled asparagus | cipollini agrodolce	posto-somerville	23	2	1
+117	chicken	pan roasted | roasted baby carrots & parsnips | chicory	posto-somerville	19	3	1
+118	hanger	8 oz grilled | rosemary gold potatoes | tuscan kale | roasted garlic rosemary sea salt butter	posto-somerville	24	4	1
+119	salmon	wood roasted | red beet risotto | preserved lemon | pickled beet & frisée salad | vincotto	posto-somerville	22	5	1
+120	swordfish	grilled | braised artichokes | shrimp | parmesan polenta	posto-somerville	23	1	1
+121	margherita pizza	mozzarella | olive oil | basil | sea salt	posto-somerville	15	2	1
+122	porchetta pizza	fennel roasted pork | fontina | asiago | red onion | oregano	posto-somerville	18	3	1
+123	pepperoni pizza	calabrese salumi | mozzarella | basil | parmesan	posto-somerville	17	4	1
+124	prosciutto pizza	prosciutto di parma | mozzarella | arugula | lemon & anchovy vinaigrette	posto-somerville	21	5	1
+125	caponata pizza	eggplant | roasted grapes | roasted peppers | golden raisins | pine nuts | ricotta | mozzarella	posto-somerville	18	1	1
+126	meatball pizza	beef | pork | veal | mozzarella | oregano | garlic	posto-somerville	17	2	1
+127	marinara pizza	sliced garlic | oregano | parmesan	posto-somerville	12	3	1
+128	asparagus pizza	mozzarella | smoked bacon | farm fresh egg	posto-somerville	18	4	1
+129	mushroom pizza	shiitake | white trumpet | crimini | fontina | spinach | lemon zest	posto-somerville	18	5	1
+130	sausage pizza	fennel sausage | mozzarella | sea salt potato | pistachio pesto	posto-somerville	18	1	1
+131	soppressata pizza	spicy pork salumi | mozzarella | tuscan pepper | oregano | arugula | parmesan	posto-somerville	17	2	1
+132	apple pizza	gorgonzola crema | applewood bacon | caramelized onions | vincotto	posto-somerville	18	3	1
+133	cauliflower pizza	caramelized onions | asiago | basil | fontina	posto-somerville	18	4	1
