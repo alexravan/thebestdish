@@ -72,7 +72,7 @@
 
             }
             function searchRestaurant(yelpid){
-                $.get("http://localhost:3000/restaurant", { searchRest : yelpid }, 
+                $.get("https://thebestdish.herokuapp.com/restaurant", { searchRest : yelpid }, 
                     function(data){
                         parseData(data)}, "json" )              
             }
