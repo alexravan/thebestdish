@@ -89,10 +89,7 @@ app.get('/', function(request, response) {
 	response.header("Access-Control-Allow-Origin", "*");
 	response.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
 
-	var indexPage = '';
-	indexPage += "<!DOCTYPE HTML><html><head><title>TBD</title></head><body><h1>Welcome to TBD</h1>";				
-	indexPage += "</body></html>"
-					response.send(indexPage);
+	response.redirect('index.html');
 	
 });
 
